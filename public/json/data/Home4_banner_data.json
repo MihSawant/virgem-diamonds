@@ -1,0 +1,11 @@
+[
+    {
+       "bg_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/home4_banner_bg.png",
+       "subtitle":"New Arrivals",
+       "title":"best offers favourite festivals",
+       "alt":"best offers favourite festivals",
+       "regular_price":"$890.00",
+       "btn_label":"Shop now",
+       "btn_slug":"/single-shop"
+    }
+ ]

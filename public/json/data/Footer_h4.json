@@ -1,0 +1,112 @@
+[
+	{
+		"top_footer": [
+			{
+				"Logo_Email_social": [
+					{
+						"logo": [
+							{
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/white-logo-stary.svg",
+								"slug": "/",
+								"alt": "main-logo"
+							}
+						],
+						"Email": [
+							{
+								"tel":"+1 992-507-8740",
+								"tel_link":"tel:+1992-507-8740",
+								"mail":"info@starryheavens.com",
+								"mail_link":"mailto:info@starryheavens.com"
+							}
+						],
+						"social": [
+							{
+								"facebook_slug": "#",
+								"twitter_slug": "#",
+								"instagram_slug": "#",
+								"pinterest_slug": "#",
+								"linkedin_slug": "#",
+								"youtube_slug": "#"
+							}
+						]
+					}
+				] 
+			}
+		],
+		"Nav_List": [
+			{
+				"child_item": [
+					{
+						"label": "Quick Links",
+						"item": [
+							{
+								"slug": "#",
+								"label": "About us"
+							},
+							{
+								"slug": "#",
+								"label": "Careers"
+							},
+							{
+								"slug": "/blog",
+								"label": "Latest Blogs"
+							},
+							{
+								"slug": "/collection",
+								"label": "Collection"
+							},
+							{
+								"slug": "/",
+								"label": "Term Policy"
+							}
+						]
+					},
+					{
+						"label": "Our Services",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Help Center"
+							},
+							{
+								"slug": "#",
+								"label": "Track your order"
+							},
+							{
+								"slug": "/my-account",
+								"label": "My Account"
+							},
+							{
+								"slug": "#",
+								"label": "Replacements"
+							},
+							{
+								"slug": "/contact-us",
+								"label": "Contact us"
+							}
+						]
+					}
+				]
+				
+			}
+		],
+		"Subscribe_Email": [
+			{
+				"label": "Subscribe our newsletter",
+				"des": "Get purchase today 20% off....",
+				"placeholder": "Enter email address",
+				"img_alt": "Email address",
+				"submit_arrow": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-down-right-light.svg"
+			}
+		],
+
+		"Copyright_bar": [
+			{
+				"copyright_text": "© Copyright 2023 Starry Heavens All Right Reserved.",
+				"payment_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/paymethod.png",
+				"payment_link": "#",
+				"payment_img_alt": "Payment"
+			}
+		]
+	}
+]

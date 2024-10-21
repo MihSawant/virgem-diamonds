@@ -1,0 +1,32 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-1.jpg",
+       "alt":"Chain necklace",
+       "link":"/design-setting"
+    }, 
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-2.jpg",
+      "alt":"Diamond bracelet",
+      "link":"/design-setting"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-3.jpg",
+      "alt":"white gold earring",
+      "link":"/design-setting"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-4.jpg",
+      "alt":"pendant For women",
+      "link":"/design-setting"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-5.jpg",
+      "alt":"Heart gold necklace",
+      "link":"/design-setting"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-jewel-6.jpg",
+      "alt":"Golden bangles",
+      "link":"/design-setting"
+   }
+ ]

@@ -1,0 +1,58 @@
+[
+   {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/round-diamond.png",
+       "title":" Round Diamond",
+       "alt":" round Diamond",
+       "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/radiant-cut-diamond.webp",
+      "title":" Radiant Diamond",
+      "alt":" Radiant Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/heart-cut-diamond.webp",
+      "title":" Heart Diamond",
+      "alt":" Heart Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/pear-diamond_cut.webp",
+      "title":" Pear Diamond ",
+      "alt":" Pear Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/marquis-diamond.webp",
+      "title":" Marquise Diamond",
+      "alt":" Marquise Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+      "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/cushion-cut-diamond.webp",
+      "title":" Cushion Diamond",
+      "alt":" Cushion Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/pear-diamond_cut.webp",
+      "title":" Pear Diamond",
+      "alt":" Pear Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/emerald-diamond-cut.webp",
+      "title":" Emerald Diamond",
+      "alt":" Emerald Diamond",
+      "description":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born.",
+       "cat_link": "/solitaire"
+    }
+ ] 

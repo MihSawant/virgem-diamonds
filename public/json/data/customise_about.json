@@ -1,0 +1,14 @@
+[
+   {
+      "Link": "/diamonds",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-about-1.png",
+      "title": "Diamong Ring",
+      "short_des": "Gold induced"
+   },
+   {
+      "Link": "/gemstones",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/customise/customise-about-2.png",
+      "title": "Gemstone earing",
+      "short_des": "Diamond induced"
+   }
+]

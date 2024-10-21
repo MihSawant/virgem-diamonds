@@ -1,0 +1,30 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/new-york-store.jpg",
+       "title":"New york, US",
+       "alt":"new york, US",
+       "slug":"/branches",
+       "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/london-store.jpg",
+      "title":"london, uk",
+      "alt":"london, uk",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/japan-store.jpg",
+      "title":"Tokyo, japan",
+      "alt":"Tokyo, japan",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/singapore-store.jpg",
+      "title":"Geylang, Singapore",
+      "alt":"Geylang, Singapore",
+      "slug":"/branches",
+      "heading":"Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor."
+   }
+ ]

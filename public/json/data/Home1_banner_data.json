@@ -1,0 +1,10 @@
+[
+    {
+       "bg_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/ring-banner-img.jpg",
+       "title":"Big Sale in christmas",
+       "top_title":"Get up to 50% off",
+       "description":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo nemo enim ipsam voluptatem quia voluptas",
+       "btn_label":"Order Now",
+       "btn_slug":"/shop"
+    }
+ ]

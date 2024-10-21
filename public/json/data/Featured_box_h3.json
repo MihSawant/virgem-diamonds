@@ -1,0 +1,26 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Delivery.svg",
+       "title":"Free Home delivery",
+       "alt":"Free Home delivery",
+       "des":"There are many variations of passages of lorem Ipsum available, but the majority have suffered"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Support.svg",
+      "title":"24/7 Customer Service",
+      "alt":"24/7 Customer Service",
+      "des":"There are many variations of passages of lorem Ipsum available, but the majority have suffered"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Warranty.svg",
+      "title":"Lifetime free Support",
+      "alt":"Lifetime free Support",
+      "des":"There are many variations of passages of lorem Ipsum available, but the majority have suffered"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Price.svg",
+      "title":"Get Offers & Down Prices",
+      "alt":"Get Offers & Down Prices",
+      "des":"There are many variations of passages of lorem Ipsum available, but the majority have suffered"
+   }
+ ]

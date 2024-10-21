@@ -1,0 +1,119 @@
+[
+	{
+		"searchbar": [
+			{
+				"logo_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/main-logo.svg",
+				"slug": "/home-1",
+				"alt": "main-logo",
+				"search_icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/search.svg",
+				"search_placeholder": "Search your favorite product...",
+				"close_icon": ""
+			}
+		],
+		"searchData": [
+			{
+				"child_items": [
+					{
+						"title": "Recent searches",
+						"items": [
+							{
+								"nav_item": "Engagement Ring",
+								"nav_link": "/engagement"
+							},
+							{
+								"nav_item": "High Jewellery",
+								"nav_link": "/high-jewellery"
+							},
+							{
+								"nav_item": "Birthday Gift",
+								"nav_link": "/gifts"
+							},
+							{
+								"nav_item": "Bracelet",
+								"nav_link": "/high-jewellery"
+							},
+							{
+								"nav_item": "Anniversary Gift",
+								"nav_link": "/gifts"
+							}
+						]
+					},
+					{
+						"title": "Popular Searches",
+						"items": [
+							{
+								"nav_item": "Wedding Ring",
+								"nav_link": "/shop"
+							},
+							{
+								"nav_item": "Gemstones",
+								"nav_link": "/shop"
+							},
+							{
+								"nav_item": "Gold Bangles",
+								"nav_link": "/shop"
+							},
+							{
+								"nav_item": "Diamond Necklace",
+								"nav_link": "/shop"
+							},
+							{
+								"nav_item": "Earrings",
+								"nav_link": "/shop"
+							}
+						]
+					}
+				],
+				"search_product": [
+					{
+						"title": "Trending Products",
+						"items": [
+							{
+								"pro_name": "Diamond engagement Ring",
+								"link": "/single-shop",
+								"pro_price": "$324.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img1.jpg",
+								"img_alt": "Diamond engagement Ring"
+							},
+							{
+								"pro_name": "Diamond gold necklace pendant",
+								"link": "/single-shop",
+								"pro_price": "$369.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img2.jpg",
+								"img_alt": "Diamond gold necklace pendant"
+							},
+							{
+								"pro_name": "Stylist Diamonds Earring With Women",
+								"link": "/single-shop",
+								"pro_price": "$369.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img3.jpg",
+								"img_alt": "Stylist Diamonds Earring With Women"
+							},
+							{
+								"pro_name": "Yellow gold diamond bangle",
+								"link": "/single-shop",
+								"pro_price": "$459.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img4.jpg",
+								"img_alt": "Yellow gold diamond bangle"
+							},
+							{
+								"pro_name": "Stylist Diamonds Earring With Women",
+								"link": "/single-shop",
+								"pro_price": "$579.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img5.jpg",
+								"img_alt": "Stylist Diamonds Earring With Women"
+							},
+							{
+								"pro_name": "Yellow gold diamond bangle",
+								"link": "/single-shop",
+								"pro_price": "$784.00",
+								"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/search_img6.jpg",
+								"img_alt": "Yellow gold diamond bangle"
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]

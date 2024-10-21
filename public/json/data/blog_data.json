@@ -1,0 +1,346 @@
+[
+   {
+      "blogs": [
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Birthday-gift.jpg",
+            "blog_alt": "New bracelet",
+            "title": "New bracelet",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-2.jpg",
+            "blog_alt": "engage Rings",
+            "title": "Engage Rings",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-3.jpg",
+            "blog_alt": "gold bangles",
+            "title": "gold bangles",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-4.jpg",
+            "blog_alt": "bride earrings",
+            "title": "bride earrings",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-5.jpg",
+            "blog_alt": "Gemstones",
+            "title": "Gemstones",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-6.jpg",
+            "blog_alt": "New arrivals",
+            "title": "New arrivals",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-7.jpg",
+            "blog_alt": "More Necklace",
+            "title": "More Necklace",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         },
+         {
+            "slug": "/single-blog",
+            "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/blog-data-8.jpg",
+            "blog_alt": "Belly Chain",
+            "title": "Belly Chain",
+            "short_des": "Lorem ipsum dolor sit consectetur adipiscing sed do eiusmod tempor incididunt ut labore dolore magna aliqua minim veniam, quis nostrud exercitation.",
+            "btn_label": "Read More",
+            "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+            "btn_img_alt": "Read More",
+            "published_date": "20, Sep"
+         }
+      ],
+      "filter": [
+         {
+            "categories": [
+               {
+                  "title": "Wedding Bracelet",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Earring",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Necklace",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Gold Bangle",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "latest Ring",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Belly Chain",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Gemstone",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Pendant",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Locket",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "Brooch",
+                  "count": "01",
+                  "link": "/shop"
+               },
+               {
+                  "title": "uncategorized",
+                  "count": "01",
+                  "link": "/shop"
+               }
+            ],
+            "colors": [
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/blue-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Blue",
+                  "title": "Blue"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/green-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Green",
+                  "title": "Green"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/olive-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Olive",
+                  "title": "Olive"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/yellow-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Yellow",
+                  "title": "Yellow"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/brown-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Brown",
+                  "title": "Brown"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/orange-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Orange",
+                  "title": "Orange"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/red-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Red",
+                  "title": "Red"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/pink-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Pink",
+                  "title": "Pink"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/purple-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Purple",
+                  "title": "Purple"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/black-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "Black",
+                  "title": "Black"
+               },
+               {
+                  "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/shop/white-gradient.svg",
+                  "slug": "/shop",
+                  "alt": "White",
+                  "title": "White"
+               }
+            ],
+            "recent_posts": [
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/recent-post-1.jpg",
+                  "title": "Letter necklace",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+                  "date": "25 April, 2018",
+                  "blog_link": "/single-blog"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/recent-post-2.jpg",
+                  "title": "Diamond necklace",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+                  "date": "25 April, 2018",
+                  "blog_link": "/single-blog"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/blog/recent-post-3.jpg",
+                  "title": "Gold necklace",
+                  "des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.",
+                  "date": "25 April, 2018",
+                  "blog_link": "/single-blog"
+               }
+            ],
+            "tags": [
+               {
+                  "title": "Rings",
+                  "link": "/shop"
+               },
+               {
+                  "title": "diamond",
+                  "link": "/shop"
+               },
+               {
+                  "title": "wedding rings",
+                  "link": "/shop"
+               },
+               {
+                  "title": "rings",
+                  "link": "/shop"
+               },
+               {
+                  "title": "hight jewellery",
+                  "link": "/shop"
+               },
+               {
+                  "title": "promise rings",
+                  "link": "/shop"
+               },
+               {
+                  "title": "jewelry stores",
+                  "link": "/shop"
+               },
+               {
+                  "title": "bangles",
+                  "link": "/shop"
+               },
+               {
+                  "title": "pendant",
+                  "link": "/shop"
+               },
+               {
+                  "title": "jared jewelry",
+                  "link": "/shop"
+               }
+            ],
+            "instagram": [
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro5.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro1.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro2.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro3.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro6.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/filter_pro4.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/gold-bracelet.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               },
+               {
+                  "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/twisted-earings.jpg",
+                  "img_alt": "Insta img",
+                  "insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+                  "icon_alt": "Insta img",
+                  "box_link":"#"
+               }
+            ]
+         }
+      ]
+   }
+]

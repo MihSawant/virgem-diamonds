@@ -1,0 +1,106 @@
+[
+	{
+		"Info_List": [
+			{
+				"logo_social": [
+					{
+						"logo_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/main-logo.svg",
+						"slug": "/",
+						"alt": "main-logo",
+						"description": "Virgem Diamonds provides comprehensive solutions to maximize the full potential of your diamond business.",
+						"social": [
+							{
+								"facebook_slug": "#",
+								"instagram_slug": "#",
+								"pinterest_slug": "#",
+								"whatsapp_slug": "#",
+								"youtube_slug": "#"
+							}
+						]
+					}
+				],
+				"contact": [
+					{
+						"title": "Get in Touch",
+						"description": "Connect with us for personalized assistance and expert guidance on your diamond needs.",
+						"items": [
+							{
+								"text": "DW2220, VIRGEMS, Opp. Gate 11, Bharat Diamond Bourse, G Block, BKC, Bandra East, Mumbai, Maharashtra 400051.",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/location.svg",
+								"alt": "address",
+								"slug": "#"
+							},
+							{
+								"text": "mihir@virgems.com",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/mail.svg",
+								"alt": "email",
+								"slug": "mailto:info@starryheavens.com"
+							},
+							{
+								"text": "+91 1234567890",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/phone.svg",
+								"alt": "phone",
+								"slug": "tel:+91 1234567890"
+							}
+						]
+					}
+				],
+				
+				"InstaFeeds": [
+					{
+						"title": "instagram",
+						"items": [
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-1.jpg",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							},
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-2.jpg",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							},
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-3.jpg",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							},
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-4.png",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							},
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-5.jpg",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							},
+							{
+								"box_link": "#",
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-insta-6.jpg",
+								"img_alt": "Insta img",
+								"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+								"icon_alt": "Insta img"
+							}
+						]
+					}
+				]
+			}
+		],
+		"bottom_footer": [
+			{
+				"copyright": "Copyright © 2023 Starry Heavens jewellery"
+			}
+		]
+	}
+]

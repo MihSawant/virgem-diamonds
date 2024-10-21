@@ -1,0 +1,201 @@
+[
+	{
+		"top_footer": [
+			{
+				"Logo_Email_social": [
+					{
+						"logo": [
+							{
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/main-logo.svg",
+								"slug": "/",
+								"alt": "main-logo"
+							}
+						],
+						"Email": [
+							{
+								"label": "Sign Up For Email",
+								"des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, tempor incididunt ut labore",
+								"placeholder": "Email address",
+								"img_alt": "Email address",
+								"submit_arrow": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-down-right-light.svg"
+							}
+						],
+						"social": [
+							{
+								"facebook_slug": "#",
+								"twitter_slug": "#",
+								"instagram_slug": "#",
+								"pinterest_slug": "#",
+								"linkedin_slug": "#",
+								"youtube_slug": "#"
+							}
+						]
+					}
+				] 
+			}
+		],
+		"Nav_List": [
+			{
+				"child_item": [
+					{
+						"label": "Company",
+						"item": [
+							{
+								"slug": "#",
+								"label": "About us"
+							},
+							{
+								"slug": "/contact-us",
+								"label": "Contact us"
+							},
+							{
+								"slug": "/privacy-policy",
+								"label": "Privacy policy"
+							},
+							{
+								"slug": "/collection",
+								"label": "Collection"
+							},
+							{
+								"slug": "/checkout",
+								"label": "Checkout"
+							}
+						]
+					},
+					{
+						"label": "Our Services",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Jewelry Financing"
+							},
+							{
+								"slug": "#",
+								"label": "Promo Codes & Offers"
+							},
+							{
+								"slug": "#",
+								"label": "Lifetime Upgrade"
+							},
+							{
+								"slug": "#",
+								"label": "Accessibility Info"
+							},
+							{
+								"slug": "#",
+								"label": "Custome Makes"
+							},
+							{
+								"slug": "#",
+								"label": "Delivery at Home"
+							}
+						]
+					},
+					{
+						"label": "Privided",
+						"item": [
+							{
+								"slug": "#",
+								"label": "Terms of Service"
+							},
+							{
+								"slug": "/terms-and-conditions",
+								"label": "Terms & Conditions"
+							},
+							{
+								"slug": "#",
+								"label": "Payment Methods"
+							},
+							{
+								"slug": "#",
+								"label": "Return & Refunds"
+							},
+							{
+								"slug": "/my-account",
+								"label": "Order Details"
+							}
+						]
+					},
+					{
+						"label": "Education",
+						"item": [
+							{
+								"slug": "/faq",
+								"label": "FAQ's"
+							},
+							{
+								"slug": "/blog",
+								"label": "Latest Blog"
+							},
+							{
+								"slug": "/diamonds",
+								"label": "Real Dimonds"
+							},
+							{
+								"slug": "/high-jewellery",
+								"label": "Gold Jewellery"
+							},
+							{
+								"slug": "/wedding",
+								"label": "Wedding Jewellery"
+							},
+							{
+								"slug": "/gemstones",
+								"label": "Gemstones"
+							}
+						]
+					},
+					{
+						"label": "Help & Support",
+						"item": [
+							{
+								"slug": "/blog-grid",
+								"label": "Blog Articles"
+							},
+							{
+								"slug": "#",
+								"label": "Size Guide"
+							},
+							{
+								"slug": "#",
+								"label": "5 Year Warranty"
+							},
+							{
+								"slug": "/high-jewellery",
+								"label": "Gold Jewellery"
+							},
+							{
+								"slug": "/contact-us",
+								"label": "Contact Us"
+							},
+							{
+								"slug": "#",
+								"label": "Sitemap"
+							}
+						]
+					}
+				]
+				
+			}
+		],
+		"Copyright_bar": [
+			{
+				"copyright_text": "© Copyright 2023 Starry Heavens All Right Reserved.",
+				"links": [
+					{
+						"title": "Terms & Conditions",
+						"slug": "/terms-and-conditions"
+					},
+					{
+						"title": "Privacy Policy",
+						"slug": "/privacy-policy"
+					},
+					{
+						"title": "Cookie Settings",
+						"slug": "#"
+					}
+				]
+			}
+		]
+	}
+]

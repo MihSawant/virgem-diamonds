@@ -1,0 +1,27 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/feature-delivery.png",
+       "title":"Fast and secure delivery",
+       "alt":"Fast and secure delivery"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/feature-support.png",
+      "title":"24/7 Customer Service",
+      "alt":"24/7 Customer Service"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/feature-awward.png",
+      "title":"Unimited Lifetime Warranty",
+      "alt":"Unimited Lifetime Warranty"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/feature-discount.png",
+      "title":"Unbeatable Market Price",
+      "alt":"Unbeatable Market Price"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home_2/feature-return.png",
+      "title":"24 Hour return policy",
+      "alt":"24 Hour return policy"
+   }
+ ]

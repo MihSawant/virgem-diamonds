@@ -1,0 +1,32 @@
+[
+   {
+      "box_link": "/gifts",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/gift-1.jpg",
+      "pro_name": "Wedding Gift",
+      "pro_price": "300.00"
+   },
+   {
+      "box_link": "/gifts",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/gift-2.jpg",
+      "pro_name": "Engagement Gift",
+      "pro_price": "450.00"
+   },
+   {
+      "box_link": "/gifts",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/gift-3.jpg",
+      "pro_name": "Birthday Gift",
+      "pro_price": "540.00"
+   },
+   {
+      "box_link": "/gifts",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/gift-4.jpg",
+      "pro_name": "Engagement Gift",
+      "pro_price": "670.00"
+   },
+   {
+      "box_link": "/gifts",
+      "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/gift-5.jpg",
+      "pro_name": "Anniversary Gift",
+      "pro_price": "890.00"
+   }
+]

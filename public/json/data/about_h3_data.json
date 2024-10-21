@@ -1,0 +1,15 @@
+[
+    {
+       "img_2":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-about-1.jpg",
+       "img_1":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/h3-about-2.jpg",
+       "title":"Makers from real gold dimond jwellery",
+       "subtitle":"Logo marking",
+       "subtitle2":"The Privacy Policy",
+       "description":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.",
+       "description2":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from making it over 20 years old. Richard Mc Clintock, a Latin professor at Hampden.",
+       "description3":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout the point.",
+       "alt":"Makers from real gold dimond jwellery",
+       "btn_label": "Learn More",
+       "btn_slug": "/diamonds"
+    }
+ ]

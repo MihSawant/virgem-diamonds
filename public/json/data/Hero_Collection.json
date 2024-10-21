@@ -1,0 +1,11 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/collection/collection-hero.jpg",
+       "mobile_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/collection/collection-hero-mobile.jpg",
+       "title":"Collection",
+       "description":"Lorem Ipsum available, but the majority have suffered alteration in some form.",
+       "alt":"Collection",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    }
+ ]

@@ -1,0 +1,85 @@
+[
+  {
+    "middle_product": [
+      {
+        "product_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero_pro_home4.png",
+        "alt": "Best Collection one jewellery",
+        "product_name": "Best Collection one jewellery",
+        "product_description": "Lorem ipsum dolor sit amet, consectetur adipiscing tempor.",
+        "product_price":"$899.00",
+        "pro_link": "/single-shop",
+        "product_btn": "Shop now"
+      }
+    ],
+    "categories":[
+      {
+         "cat_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_cat_img-01.jpg",
+         "img_alt":"Earrings",
+         "link":"/high-jewellery",
+         "label":"Earrings"
+      },
+      {
+         "cat_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_cat_img-02.jpg",
+         "img_alt":"Braclete",
+         "link":"/high-jewellery",
+         "label":"Braclete"
+      },
+      {
+         "cat_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_cat_img-03.jpg",
+         "img_alt":"Necklace",
+         "link":"/high-jewellery",
+         "label":"Necklace"
+      },
+      {
+         "cat_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_cat_img-04.jpg",
+         "img_alt":"Rings",
+         "link":"/engagement",
+         "label":"Rings"
+      },
+      {
+         "cat_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_cat_img-05.jpg",
+         "img_alt":"Gemstone",
+         "link":"/gemstones",
+         "label":"Gemstone"
+      }
+    ],
+    "hero_products":[
+      {
+         "pro_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_pro_img-01.jpg",
+         "img_alt":"Catch the deal of braclete",
+         "link":"/single-shop-v2",
+         "pro_name":"Catch the deal of braclete",
+         "product_price":"$299.00",
+         "pro_link": "/single-shop-v2",
+         "product_btn": "Shop now"
+      },
+      {
+         "pro_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_pro_img-02.jpg",
+         "img_alt":"Big Saving Deal on necklace",
+         "link":"/single-shop-v2",
+         "pro_name":"Big Saving Deal on necklace",
+         "product_price":"$664.00",
+         "pro_link": "/single-shop-v2",
+         "product_btn": "Shop now"
+      },
+      {
+         "pro_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_pro_img-03.jpg",
+         "img_alt":"Hottest Deal in earrings",
+         "link":"/single-shop-v2",
+         "pro_name":"Hottest Deal in earrings",
+         "product_price":"$465.00",
+         "pro_link": "/single-shop-v2",
+         "product_btn": "Shop now"
+      },
+      {
+         "pro_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/hero4_pro_img-04.jpg",
+         "img_alt":"Bigger discount in rings",
+         "link":"/single-shop-v2",
+         "pro_name":"Bigger discount in rings",
+         "product_price":"$384.00",
+         "pro_link": "/single-shop-v2",
+         "product_btn": "Shop now"
+      }
+    ]
+  }
+]

@@ -1,0 +1,166 @@
+[
+   {
+      "diamond_shape":  [
+         {
+            "slug": "/single-shop",
+            "link_title": "Shield",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shield-shape.svg",
+            "img_alt": "Shield"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Round",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/round-shape.svg",
+            "img_alt": "Round"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Cushion",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cushion-shape.svg",
+            "img_alt": "Cushion"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Radiant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/radiant-shape.svg",
+            "img_alt": "Radiant"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Princess",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/princess-shape.svg",
+            "img_alt": "Princess"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Marquise",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/marquise-shape.svg",
+            "img_alt": "Marquise"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Heart",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/heart-shape.svg",
+            "img_alt": "Heart"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Emerald",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/emerald-shape.svg",
+            "img_alt": "Emerald"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Pear",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pear-shape.svg",
+            "img_alt": "Pear"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Oval",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/oval-shape.svg",
+            "img_alt": "Oval"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Trilliant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/trilliant-shape.svg",
+            "img_alt": "Trilliant"
+         },
+         {
+            "slug": "/single-shop",
+            "link_title": "Octagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/octagonal-shape.svg",
+            "img_alt": "Octagonal"
+         }
+      ],
+      "ring_slider": [
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-1.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-2.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-3.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-4.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-5.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-6.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-1.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-2.jpg",
+            "img_alt":""
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/solitaire/filter-ring-3.jpg",
+            "img_alt":""
+         }
+      ],
+      "ring_metal": [
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gold.png",
+            "slug": "/single-shop",
+            "alt": "Yellow Gold",
+            "title": "Yellow Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/silver.png",
+            "alt": "White Gold",
+            "slug": "/single-shop",
+            "title": "White Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/rose-gold.png",
+            "alt": "Rose Gold",
+            "slug": "/single-shop",
+            "title": "Rose Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/platinum.png",
+            "alt": "Platinum",
+            "slug": "/single-shop",
+            "title": "Platinum"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/nickel.png",
+            "alt": "Nickel",
+            "slug": "/single-shop",
+            "title": "Nickel"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/copper.png",
+            "alt": "Coper",
+            "slug": "/single-shop",
+            "title": "Coper"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/titanium.png",
+            "alt": "Titanium",
+            "slug": "/single-shop",
+            "title": "Titanium"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/palladium.png",
+            "alt": "Palladium",
+            "slug": "/single-shop",
+            "title": "Palladium"
+         }
+      ]
+   }
+]

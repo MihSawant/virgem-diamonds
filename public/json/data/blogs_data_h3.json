@@ -1,0 +1,46 @@
+[
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/home3-blog1.png",
+      "blog_alt": "New ring",
+      "title": "Lorem Ipsum is simply dummy text of the printing industry.",
+      "short_des": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20, Sep"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/home3-blog2.png",
+      "blog_alt": "engage Rings",
+      "title": "Lorem Ipsum is simply dummy text of the printing industry.",
+      "short_des": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20, Sep"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/home3-blog3.png",
+      "blog_alt": "Earings",
+      "title": "Lorem Ipsum is simply dummy text of the printing industry.",
+      "short_des": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20, Sep"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/home3-blog1.png",
+      "blog_alt": "Engage Rings",
+      "title": "Lorem Ipsum is simply dummy text of the printing industry.",
+      "short_des": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20, Sep"
+   }
+]

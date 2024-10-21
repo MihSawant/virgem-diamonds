@@ -1,0 +1,1845 @@
+[
+	{
+		"top_bar": [
+			{
+				"order_tracker_label": "Order Tracking",
+				"order_tracker_slug": "#",
+				"order_tracker_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/carbon_delivery.svg",
+				"order_tracker_alt": "OrderTracking",
+				"store_locator_label": "Store Locator",
+				"store_locator_slug": "/branches",
+				"store_locator_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/pin-location.svg",
+				"store_locator_alt": "store_locator",
+				"mail_slug": "mailto:info@starryheavens.com",
+				"mail_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/mail.svg",
+				"mail_alt": "mail",
+				"mail_label": "info@starryheavens.com",
+				"call_slug": "tel:+19925078740",
+				"call_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/call.svg",
+				"call_alt": "call",
+				"call_label": " +1 992-507-8740",
+				"Lang": [
+					{
+						"id": 1,
+						"label": "English",
+						"value": "English",
+						"avatar": "https://flagcdn.com/us.svg"
+					},
+					{
+						"id": 2,
+						"label": "Argentina",
+						"value": "Argentina",
+						"avatar": "https://flagcdn.com/ar.svg"
+					},
+					{
+						"id": 3,
+						"label": "Venezuela",
+						"value": "Venezuela",
+						"avatar": "https://flagcdn.com/ve.svg"
+					},
+					{
+						"id": 4,
+						"label": "Brazil",
+						"value": "Brazil",
+						"avatar": "https://flagcdn.com/br.svg"
+					},
+					{
+						"id": 5,
+						"label": "Germany",
+						"value": "Germany",
+						"avatar": "https://flagcdn.com/de.svg"
+					},
+					{
+						"id": 6,
+						"label": "Spain",
+						"value": "Spain",
+						"avatar": "https://flagcdn.com/es.svg"
+					},
+					{
+						"id": 7,
+						"label": "France",
+						"value": "France",
+						"avatar": "https://flagcdn.com/fr.svg"
+					}
+				],
+				"Country": [
+					{
+						"id": 1,
+						"label": "USD",
+						"value": "USD"
+					},
+					{
+						"id": 2,
+						"label": "CAD",
+						"value": "CAD"
+					},
+					{
+						"id": 3,
+						"label": "ERN",
+						"value": "ERN"
+					},
+					{
+						"id": 4,
+						"label": "GMD",
+						"value": "GMD"
+					},
+					{
+						"id": 5,
+						"label": "INR",
+						"value": "INR"
+					},
+					{
+						"id": 6,
+						"label": "MVR",
+						"value": "MVR"
+					}
+				]
+			}
+		],
+		"mid_bar": [
+			{
+				"searchCategory": [
+					{
+						"searchbar_center": [
+							{
+								"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/search.svg",
+								"alt": "search",
+								"placeholder": "Search here...."
+							}
+						],
+						"Select_Category": [
+							{
+								"value": "Select Category",
+								"label": "Select Category"
+							},
+							{
+								"value": "Diamond",
+								"label": "Diamond"
+							},
+							{
+								"value": "Jewellery",
+								"label": "Jewellery"
+							},
+							{
+								"value": "Emrald",
+								"label": "Emrald"
+							}
+						]
+					}
+				],
+				"logo": [
+					{
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/main-logo.svg",
+						"slug": "/home-1",
+						"alt": "main-logo"
+					}
+				],
+				"mid_bar_right": [
+					{
+						"slug": "/compare",
+						"class2": "text-gray-800 hover:text-violet-900 text-[0] lg:text-sm uppercase flex items-center leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/compare.svg",
+						"alt": "compare",
+						"title": "compare",
+						"label": "compare",
+						"not_for": [
+							"/home-3",
+							"/home-1"
+						]
+					},
+					{
+						"slug": "/wishlist",
+						"class2": "text-gray-800 hover:text-violet-900 text-[0] lg:text-sm uppercase flex items-center leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Heart.svg",
+						"alt": "wishlist",
+						"title": "wishlist",
+						"label": " Wishlist",
+						"not_for": []
+					},
+					{
+						"slug": "/cart",
+						"class2": "text-gray-800 hover:text-violet-900 text-[0] lg:text-sm uppercase flex items-end leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cart-bag.svg",
+						"alt": "cart",
+						"title": "cart",
+						"label": " 0",
+						"cart_total": "Cart - $450.00",
+						"not_for": []
+					},
+					{
+						"slug": "/login",
+						"class2": "text-gray-800 hover:text-violet-900 text-[0] lg:text-sm uppercase flex items-end leading-tight",
+						"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/user.svg",
+						"alt": "user",
+						"title": "user",
+						"label": " Login",
+						"not_for": []
+					}
+				]
+			}
+		],
+		"mega_menu": {
+			"All_Categories": [
+				{
+					"slug": "#",
+					"menu_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/list.svg",
+					"menu_alt": "list",
+					"title": "All Categories",
+					"arrow_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/chevron-down.svg",
+					"arrow_alt": "arrow",
+					"Categories_Item": [
+						{
+							"slug": "/shop",
+							"title": "Best sell  Diamond",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Trending Today",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Charm bracelet",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Engagement ring",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Friendship bracelet",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "piercing jewellery",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Prayer jewelry",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Gemstone Jewelry",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Jewelry Dimonds",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Gold Silver",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Diamond Cover",
+							"type": 0
+						},
+						{
+							"slug": "/shop",
+							"title": "Customized",
+							"type": 1
+						},
+						{
+							"slug": "/shop",
+							"title": "Latest Product",
+							"type": 1
+						},
+						{
+							"slug": "/shop",
+							"title": "Best Product",
+							"type": 1
+						},
+						{
+							"slug": "/shop",
+							"title": "Last day Product",
+							"type": 1
+						}
+					]
+				}
+			],
+			"main_nav": [
+				{
+					"slug": "/engagement",
+					"title": "Engagement",
+					"child_item": [
+						{
+							"label": "Shop by Style",
+							"column": " lg:w-1/6 w-1/2",
+							"order": 1,
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Side Stone"
+								},
+								{
+									"slug": "/shop",
+									"title": "Solitaire"
+								},
+								{
+									"slug": "/shop",
+									"title": "Three Stone"
+								},
+								{
+									"slug": "/shop",
+									"title": "Two Stone"
+								},
+								{
+									"slug": "/shop",
+									"title": "Single Stone"
+								},
+								{
+									"slug": "/shop",
+									"title": "Bridal Sets"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "High Jewelry"
+								},
+								{
+									"slug": "/shop",
+									"title": "Solitaire"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								},
+								{
+									"slug": "/shop",
+									"title": "Out-Stock"
+								}
+							]
+						},
+						{
+							"label": "Shop by shape",
+							"column": " lg:w-1/6 w-1/2",
+							"order": 2,
+							"btn_link": "/engagement",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"style": "",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shield-shape.svg",
+									"slug": "/shop",
+									"alt": "Shield",
+									"title": "Shield"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/round-shape.svg",
+									"alt": "Round",
+									"slug": "/shop",
+									"title": "Round"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cushion-shape.svg",
+									"alt": "Cushion",
+									"slug": "/shop",
+									"title": "Cushion"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/radiant-shape.svg",
+									"alt": "Radiant",
+									"slug": "/shop",
+									"title": "Radiant"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/princess-shape.svg",
+									"alt": "Princess",
+									"slug": "/shop",
+									"title": "Princess"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/marquise-shape.svg",
+									"alt": "Marquise",
+									"slug": "/shop",
+									"title": "Marquise"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/heart-shape.svg",
+									"alt": "Heart",
+									"slug": "/shop",
+									"title": "Heart"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/emerald-shield.svg",
+									"alt": "Emerald",
+									"slug": "/shop",
+									"title": "Emerald"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pear-shape.svg",
+									"alt": "Pear",
+									"slug": "/shop",
+									"title": "Pear"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/oval-shape.svg",
+									"alt": "Oval",
+									"slug": "/shop",
+									"title": "Oval"
+								}
+							]
+						},
+						{
+							"label": "Shop by Metal ",
+							"order": 3,
+							"column": " lg:w-1/6 w-1/2",
+							"style": "circle",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gold.png",
+									"slug": "/shop",
+									"alt": "Yellow Gold",
+									"title": "Yellow Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/silver.png",
+									"alt": "White Gold",
+									"slug": "/shop",
+									"title": "White Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/rose-gold.png",
+									"alt": "Rose Gold",
+									"slug": "/shop",
+									"title": "Rose Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/platinum.png",
+									"alt": "Platinum",
+									"slug": "/shop",
+									"title": "Platinum"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/nickel.png",
+									"alt": "Nickel",
+									"slug": "/shop",
+									"title": "Nickel"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/copper.png",
+									"alt": "Coper",
+									"slug": "/shop",
+									"title": "Coper"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/titanium.png",
+									"alt": "Titanium",
+									"slug": "/shop",
+									"title": "Titanium"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/palladium.png",
+									"alt": "Palladium",
+									"slug": "/shop",
+									"title": "Palladium"
+								}
+							]
+						},
+						{
+							"label": "Featured",
+							"order": 4,
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Profetional Work"
+								},
+								{
+									"slug": "/shop",
+									"title": "Fashionable ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Privacy policy"
+								},
+								{
+									"slug": "/shop",
+									"title": "Free Support"
+								}
+							]
+						}
+					],
+					"img_with_button_width": "lg:w-2/6 w-full",
+					"img_with_button": [
+						{
+							"label": "DESIGN FOR YOU",
+							"order": 4,
+							"img_src": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/eng-megamenu-img.png",
+							"img_alt": "list",
+							"buttons": [
+								{
+									"label": "Start With a Setting",
+									"slug": "/design-setting",
+									"class": "1xl:text-lg text-md"
+								},
+								{
+									"label": "Start With a Diamond",
+									"slug": "/diamonds",
+									"class": "px-1 border text-center border-gray-800 bg-white text-gray-800 hover:bg-violet-900 hover:text-white hover:border-violet-900 font-normal 1xl:text-lg text-md"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/wedding",
+					"title": "Wedding",
+					"child_item": [
+						{
+							"label": "Shop by Style",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Wedding Jewellery"
+								},
+								{
+									"slug": "/shop",
+									"title": "Anniversary"
+								},
+								{
+									"slug": "/shop",
+									"title": "Men's Bands"
+								},
+								{
+									"slug": "/shop",
+									"title": "Bride Trend"
+								},
+								{
+									"slug": "/shop",
+									"title": "Set necklace"
+								},
+								{
+									"slug": "/shop",
+									"title": "Gold Necklace"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "Fancy color"
+								},
+								{
+									"slug": "/shop",
+									"title": "Eternity Brands"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								},
+								{
+									"slug": "/shop",
+									"title": "Out-Stock"
+								}
+							]
+						},
+						{
+							"label": "Shop by shape",
+							"column": " lg:w-1/6 w-1/2",
+							"btn_link": "/wedding",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shield-shape.svg",
+									"slug": "/shop",
+									"alt": "Shield",
+									"title": "Shield"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/round-shape.svg",
+									"alt": "Round",
+									"slug": "/shop",
+									"title": "Round"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cushion-shape.svg",
+									"alt": "Cushion",
+									"slug": "/shop",
+									"title": "Cushion"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/radiant-shape.svg",
+									"alt": "Radiant",
+									"slug": "/shop",
+									"title": "Radiant"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/princess-shape.svg",
+									"alt": "Princess",
+									"slug": "/shop",
+									"title": "Princess"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/marquise-shape.svg",
+									"alt": "Marquise",
+									"slug": "/shop",
+									"title": "Marquise"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/heart-shape.svg",
+									"alt": "Heart",
+									"slug": "/shop",
+									"title": "Heart"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/emerald-shield.svg",
+									"alt": "Emerald",
+									"slug": "/shop",
+									"title": "Emerald"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pear-shape.svg",
+									"alt": "Pear",
+									"slug": "/shop",
+									"title": "Pear"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/oval-shape.svg",
+									"alt": "Oval",
+									"slug": "/shop",
+									"title": "Oval"
+								}
+							]
+						},
+						{
+							"label": "Shop by Metal ",
+							"column": " lg:w-1/6 w-1/2",
+							"style": "circle",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gold.png",
+									"slug": "/shop",
+									"alt": "Yellow Gold",
+									"title": "Yellow Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/silver.png",
+									"alt": "White Gold",
+									"slug": "/shop",
+									"title": "White Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/rose-gold.png",
+									"alt": "Rose Gold",
+									"slug": "/shop",
+									"title": "Rose Gold"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/platinum.png",
+									"alt": "Platinum",
+									"slug": "/shop",
+									"title": "Platinum"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/nickel.png",
+									"alt": "Nickel",
+									"slug": "/shop",
+									"title": "Nickel"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/copper.png",
+									"alt": "Coper",
+									"slug": "/shop",
+									"title": "Coper"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/titanium.png",
+									"alt": "Titanium",
+									"slug": "/shop",
+									"title": "Titanium"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/palladium.png",
+									"alt": "Palladium",
+									"slug": "/shop",
+									"title": "Palladium"
+								}
+							]
+						},
+						{
+							"label": "Men’s Style",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Wedding Rings"
+								},
+								{
+									"slug": "/shop",
+									"title": "Gold Chain"
+								},
+								{
+									"slug": "/shop",
+									"title": "men bracelet gold"
+								},
+								{
+									"slug": "/shop",
+									"title": "Men Trending"
+								}
+							]
+						}
+					],
+					"product_sections": [
+						{
+							"title": "Wedding Product",
+							"column": "lg:w-2/6 w-full",
+							"btn_slug": "/shop",
+							"btn_title": "Shop now",
+							"btn_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_alt": "Shop now",
+							"img_two_btns": [
+								{
+									"id": 131,
+									"slug": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pearl-earing.jpg",
+									"label": "Pear gold earrings",
+									"price": "320.00",
+									"stock_badge": "Not Available",
+									"sale_badge": "",
+									"alt": "Pear gold earrings",
+									"gia_number": "2466498019",
+									"stock_id": "V80",
+									"d_number": "64.5",
+									"m_number": "7.93 - 7.89 * 5.10",
+									"eyeclean": "-",
+									"t_number": "58",
+									"ratio": "1.01",
+									"total": "$91.81",
+									"price_ct": "$45.00",
+									"company": "starry GEMS",
+									"location": "INDIA",
+									"shape": "Round",
+									"ct": "0.25",
+									"color": "D",
+									"clarity": "VVS1",
+									"cut": "EX",
+									"pol": "EX",
+									"sym": "EX",
+									"flu": "None",
+									"Lab": "GIA",
+									"disc": "+ 21.90%",
+									"wishlist_label": "Wishlist",
+									"category": "Earrings",
+									"shipped": "null",
+									"btn_label": "View now",
+									"box_class": "bg-white p-4 group xl:block lg:hidden",
+									 "short_des": "lorem ipsum",
+									"badge": "viewed",
+									"icon_name": "cart",
+									"filter_name": "earings "
+								},
+								{
+									"id": 132,
+									"slug": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gold-chain.jpg",
+									"label": "White Gold Chain",
+									"price": "580.00",
+									"stock_badge": "Not Available",
+									"sale_badge": "",
+									"alt": "White Gold Chain",
+									"gia_number": "2466498019",
+									"stock_id": "V80",
+									"d_number": "64.5",
+									"m_number": "7.93 - 7.89 * 5.10",
+									"eyeclean": "-",
+									"t_number": "58",
+									"ratio": "1.01",
+									"total": "$91.81",
+									"price_ct": "$45.00",
+									"company": "starry GEMS",
+									"location": "INDIA",
+									"shape": "Round",
+									"ct": "0.25",
+									"color": "D",
+									"clarity": "VVS1",
+									"cut": "EX",
+									"pol": "EX",
+									"sym": "EX",
+									"flu": "None",
+									"Lab": "GIA",
+									"disc": "+ 21.90%",
+									"wishlist_label": "Wishlist",
+									"category": "Earrings",
+									"shipped": "null",
+									"btn_label": "View now",
+									"box_class": "bg-white p-4 group xl:block lg:hidden",
+									 "short_des": "lorem ipsum",
+									"badge": "viewed",
+									"icon_name": "cart",
+									"filter_name": "earings "
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/diamonds",
+					"title": "Diamonds",
+					"Clarity": [
+						{
+							"label": "diamond by clarity",
+							"column": "xl:w-1/6 w-1/2",
+							"btn_label": "View all",
+							"btn_slug": "/diamonds",
+							"btn_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_alt": "View all",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Fl"
+								},
+								{
+									"slug": "/shop",
+									"title": "VVS1"
+								},
+								{
+									"slug": "/shop",
+									"title": "VVS2"
+								},
+								{
+									"slug": "/shop",
+									"title": "VS1"
+								},
+								{
+									"slug": "/shop",
+									"title": "VS2"
+								},
+								{
+									"slug": "/shop",
+									"title": "SI1"
+								},
+								{
+									"slug": "/shop",
+									"title": "SI2"
+								},
+								{
+									"slug": "/shop",
+									"title": "SI3"
+								},
+								{
+									"slug": "/shop",
+									"title": "I1"
+								},
+								{
+									"slug": "/shop",
+									"title": "I2"
+								},
+								{
+									"slug": "/shop",
+									"title": "I3"
+								},
+								{
+									"slug": "/shop",
+									"title": "VVS+"
+								},
+								{
+									"slug": "/shop",
+									"title": "VS+"
+								},
+								{
+									"slug": "/shop",
+									"title": "SI+"
+								}
+							]
+						}
+					],
+					"child_item": [
+						{
+							"label": "Shop by Color",
+							"column": "xl:w-1/6 w-1/2 pl-4",
+							"style": "circle",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/blue.png",
+									"slug": "/shop",
+									"alt": "Blue",
+									"title": "Blue"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/green.png",
+									"slug": "/shop",
+									"alt": "Green",
+									"title": "Green"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/olive.png",
+									"slug": "/shop",
+									"alt": "Olive",
+									"title": "Olive"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/yellow.png",
+									"slug": "/shop",
+									"alt": "Yellow",
+									"title": "Yellow"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/brown.png",
+									"slug": "/shop",
+									"alt": "Brown",
+									"title": "Brown"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/orange.png",
+									"slug": "/shop",
+									"alt": "Orange",
+									"title": "Orange"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/red.png",
+									"slug": "/shop",
+									"alt": "Red",
+									"title": "Red"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pink.png",
+									"slug": "/shop",
+									"alt": "Pink",
+									"title": "Pink"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/purple.png",
+									"slug": "/shop",
+									"alt": "Purple",
+									"title": "Purple"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/black.png",
+									"slug": "/shop",
+									"alt": "Black",
+									"title": "Black"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/white.png",
+									"slug": "/shop",
+									"alt": "White",
+									"title": "White"
+								}
+							]
+						}
+					],
+					"diamond_shape": [
+						{
+							"label": "Shop by shape",
+							"column": "xl:w-4/6 w-full",
+							"btn_label": "View all",
+							"btn_slug": "/diamonds",
+							"btn_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_alt": "shape",
+							"item": [
+								{
+									"slug": "/shop",
+									"link_title": "Shield",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shield-shape.svg",
+									"img_alt": "Shield"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Round",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/round-shape.svg",
+									"img_alt": "Round"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Cushion",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/cushion-shape.svg",
+									"img_alt": "Cushion"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Radiant",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/radiant-shape.svg",
+									"img_alt": "Radiant"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Princess",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/princess-shape.svg",
+									"img_alt": "Princess"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Marquise",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/marquise-shape.svg",
+									"img_alt": "Marquise"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Heart",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/heart-shape.svg",
+									"img_alt": "Heart"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Emerald",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/emerald-shape.svg",
+									"img_alt": "Emerald"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Pear",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pear-shape.svg",
+									"img_alt": "Pear"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Oval",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/oval-shape.svg",
+									"img_alt": "Oval"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Trilliant",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/trilliant-shape.svg",
+									"img_alt": "Trilliant"
+								},
+								{
+									"slug": "/shop",
+									"link_title": "Octagonal",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/octagonal-shape.svg",
+									"img_alt": "Octagonal"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/high-jewellery",
+					"title": "High Jewellery",
+					"child_item": [
+						{
+							"label": "Rings",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Engagement ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Fashion ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Wedding ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Earrings",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Fashion Earrings"
+								},
+								{
+									"slug": "/shop",
+									"title": "Customized Earring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Earring Jackets"
+								},
+								{
+									"slug": "/shop",
+									"title": "Trend Earring"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Necklaces",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Tennis Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Gold Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Platinum Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Solitaire Pendants"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Bracelets",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Diamond Bracelets"
+								},
+								{
+									"slug": "/shop",
+									"title": "Bangles"
+								},
+								{
+									"slug": "/shop",
+									"title": "Trend Fashion"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						}
+					],
+					"insta_items": [
+						{
+							"label": "Instagram Post",
+							"column": " lg:w-2/6 w-full",
+							"items": [
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-1.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								},
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-2.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								},
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-3.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								},
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-4.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								},
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-5.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								},
+								{
+									"box_link": "#",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta-6.jpg",
+									"img_alt": "Insta img",
+									"insta_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/insta.svg",
+									"icon_alt": "Insta img"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/collection",
+					"title": "Collection",
+					"child_item": [
+						{
+							"label": "Shop By Women’s",
+							"column": " lg:w-1/6 w-1/2",
+							"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shop-by-women.jpg",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Engagement ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Fashion ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Wedding ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Shop By men’s",
+							"column": " lg:w-1/6 w-1/2",
+							"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shop-by-men.jpg",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Fashion Earrings"
+								},
+								{
+									"slug": "/shop",
+									"title": "Customized Earring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Earring Jackets"
+								},
+								{
+									"slug": "/shop",
+									"title": "Trend Earring"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Shop By Wedding",
+							"column": " lg:w-1/6 w-1/2",
+							"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/shop-by-wedding.png",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Tennis Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Gold Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Platinum Necklaces"
+								},
+								{
+									"slug": "/shop",
+									"title": "Solitaire Pendants"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						},
+						{
+							"label": "Trend Shop",
+							"column": " lg:w-1/6 w-1/2",
+							"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/trend-shop.png",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Diamond Bracelets"
+								},
+								{
+									"slug": "/shop",
+									"title": "Bangles"
+								},
+								{
+									"slug": "/shop",
+									"title": "Trend Fashion"
+								},
+								{
+									"slug": "/shop",
+									"title": "New Arrivals"
+								},
+								{
+									"slug": "/shop",
+									"title": "In-Stock"
+								}
+							]
+						}
+					],
+					"post_items": [
+						{
+							"label": "Recent Posts",
+							"column": "2xl:w-[27%] lg:w-[32%] w-full",
+							"btn_label": "View all",
+							"btn_slug": "/blog",
+							"btn_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_alt": "View all",
+							"items": [
+								{
+									"box_link": "/single-blog",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/collection-post-1.jpg",
+									"img_alt": "Blog img",
+									"blog_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+									"publish_date": "20 SEP 2018"
+								},
+								{
+									"box_link": "/single-blog",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/collection-post-2.jpg",
+									"img_alt": "Blog img",
+									"blog_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+									"publish_date": "15 Aug 2018"
+								},
+								{
+									"box_link": "/single-blog",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/collection-post-3.jpg",
+									"img_alt": "Blog img",
+									"blog_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+									"publish_date": "8 Jul 2018"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/gifts",
+					"title": "Gifts",
+					"gifts_item": [
+						{
+							"label": "Shop By Gifts",
+							"btn_label": "Explore all",
+							"btn_slug": "/gifts",
+							"btn_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_alt": "Explore all",
+							"items": [
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pro-gift-1.jpg",
+									"pro_name": "Wedding Gift",
+									"pro_price": "300.00"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pro-gift-2.jpg",
+									"pro_name": "Engagement Gift",
+									"pro_price": "450.00"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pro-gift-3.jpg",
+									"pro_name": "Birthday Gift",
+									"pro_price": "540.00"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pro-gift-4.jpg",
+									"pro_name": "Engagement Gift",
+									"pro_price": "670.00"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/pro-gift-5.jpg",
+									"pro_name": "Anniversary Gift",
+									"pro_price": "890.00"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/customise",
+					"title": "Customise",
+					"child_item": [
+						{
+							"label": "Shop by carat",
+							"column": " lg:w-1/6 w-1/2",
+							"btn_link": "/customise",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "0.30 Down"
+								},
+								{
+									"slug": "/shop",
+									"title": "0.30 - 0.39"
+								},
+								{
+									"slug": "/shop",
+									"title": "0.40 - 0.49"
+								},
+								{
+									"slug": "/shop",
+									"title": "0.50 - 0.59"
+								},
+								{
+									"slug": "/shop",
+									"title": "0.60 - 0.69"
+								},
+								{
+									"slug": "/shop",
+									"title": "0.70 - 0.79"
+								}
+							]
+						},
+						{
+							"label": "Features",
+							"column": " lg:w-1/6 w-1/2",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Women Pendant"
+								},
+								{
+									"slug": "/shop",
+									"title": "Wedding chain"
+								},
+								{
+									"slug": "/shop",
+									"title": "Customized Earring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Gold bangle"
+								},
+								{
+									"slug": "/shop",
+									"title": "Diamond necklace"
+								},
+								{
+									"slug": "/shop",
+									"title": "White gold rings"
+								},
+								{
+									"slug": "/shop",
+									"title": "Men’s bracelet"
+								}
+							]
+						},
+						{
+							"label": "Shop by Metal",
+							"column": " lg:w-1/6 w-1/2",
+							"style": "circle",
+							"btn_link": "/customise",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/blue.png",
+									"slug": "/shop",
+									"alt": "Blue",
+									"title": "Blue"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/green.png",
+									"alt": "Green",
+									"slug": "/shop",
+									"title": "Green"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/olive.png",
+									"alt": "Olive",
+									"slug": "/shop",
+									"title": "Olive"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/yellow.png",
+									"alt": "Yellow",
+									"slug": "/shop",
+									"title": "Yellow"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/brown.png",
+									"alt": "Brown",
+									"slug": "/shop",
+									"title": "Brown"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/orange.png",
+									"alt": "Orange",
+									"slug": "/shop",
+									"title": "Orange"
+								}
+							]
+						}
+					],
+					"products_item": [
+						{
+							"label": "Best Customise",
+							"column": " lg:w-3/6 sm:w-1/2 w-full",
+							"btn_link": "/customise",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"items": [
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-1.jpg",
+									"pro_name": "Gold Bangle"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-2.jpg",
+									"pro_name": "Gold necklace"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-3.jpg",
+									"pro_name": "White gold rings"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-4.jpg",
+									"pro_name": "Men’s bracelet"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-2.jpg",
+									"pro_name": "Gold necklace"
+								},
+								{
+									"box_link": "/single-shop",
+									"img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/customise-img-4.jpg",
+									"pro_name": "Men’s bracelet"
+								}
+							]
+						}
+					]
+				},
+				{
+					"slug": "/gemstones",
+					"title": "Gemstones",
+					"child_item": [
+						{
+							"label": "Shop by gems",
+							"column": " lg:w-1/6 w-1/2",
+							"btn_link": "/gemstones",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Diamond"
+								},
+								{
+									"slug": "/shop",
+									"title": "Amethyst"
+								},
+								{
+									"slug": "/shop",
+									"title": "Emerald"
+								},
+								{
+									"slug": "/shop",
+									"title": "Pearl"
+								},
+								{
+									"slug": "/shop",
+									"title": "Topaz"
+								},
+								{
+									"slug": "/shop",
+									"title": "Sapphire"
+								},
+								{
+									"slug": "/shop",
+									"title": "Opal"
+								}
+							]
+						},
+						{
+							"label": "Shop by Colors",
+							"column": " lg:w-1/6 w-1/2",
+							"style": "circle",
+							"btn_link": "/gemstones",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/blue.png",
+									"slug": "/shop",
+									"alt": "Blue",
+									"title": "Blue"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/green.png",
+									"slug": "/shop",
+									"alt": "Green",
+									"title": "Green"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/olive.png",
+									"slug": "/shop",
+									"alt": "Olive",
+									"title": "Olive"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/yellow.png",
+									"slug": "/shop",
+									"alt": "Yellow",
+									"title": "Yellow"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/brown.png",
+									"slug": "/shop",
+									"alt": "Brown",
+									"title": "Brown"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/orange.png",
+									"slug": "/shop",
+									"alt": "Orange",
+									"title": "Orange"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/red.png",
+									"slug": "/shop",
+									"alt": "Red",
+									"title": "Red"
+								}
+							]
+						},
+						{
+							"label": "Shop by Type",
+							"column": " lg:w-1/6 w-1/2",
+							"btn_link": "/gemstones",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/sapphire.png",
+									"slug": "/shop",
+									"alt": "Sapphire",
+									"title": "Sapphire"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Emerald.png",
+									"alt": "Emerald",
+									"slug": "/shop",
+									"title": "Emerald"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Moissanite.png",
+									"alt": "Moissanite",
+									"slug": "/shop",
+									"title": "Moissanite"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Ruby.png",
+									"alt": "Ruby",
+									"slug": "/shop",
+									"title": "Ruby"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Aquamarine.png",
+									"alt": "Aquamarine",
+									"slug": "/shop",
+									"title": "Aquamarine"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Morganite.png",
+									"alt": "Morganite",
+									"slug": "/shop",
+									"title": "Morganite"
+								},
+								{
+									"icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/Opal.png",
+									"alt": "Opal",
+									"slug": "/shop",
+									"title": "Opal"
+								}
+							]
+						},
+						{
+							"label": "Gemstones Product",
+							"column": " lg:w-1/6 w-1/2",
+							"btn_link": "/gemstones",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"item": [
+								{
+									"slug": "/shop",
+									"title": "Pearl Gems Ring"
+								},
+								{
+									"slug": "/shop",
+									"title": "Diamond necklace"
+								},
+								{
+									"slug": "/shop",
+									"title": "Topaz Gems earrings"
+								},
+								{
+									"slug": "/shop",
+									"title": "Opal Gems bracelet"
+								},
+								{
+									"slug": "/shop",
+									"title": "Emerald bangles"
+								},
+								{
+									"slug": "/shop",
+									"title": "Ruby Gems necklace"
+								},
+								{
+									"slug": "/shop",
+									"title": "Purple Topaz"
+								}
+							]
+						}
+					],
+					"single_product": [
+						{
+							"column": " lg:w-2/6 lg:w-1/2 w-full",
+							"label": "Trending Gemstones",
+							"btn_link": "/gemstones",
+							"btn_title": "View All ",
+							"btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+							"btn_icon_label": "View All",
+							"pro_slug": "/single-shop",
+							"pro_name": "purple Topaz gemstone",
+							"pro_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gem.jpg",
+							"pro_alt": "purple Topaz gemstone",
+							"pro_des": "Lorem ipsum dolor sit amet consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.",
+							"pro_reg_price": "990.00",
+							"pro_sale_price": "320.00",
+							"sale_tag": "Sale"
+						}
+					]
+				},
+				{
+					"slug": "#",
+					"title": "Pages",
+					"li_class": "ltr:xl:ml-4 rtl:xl:mr-4 ltr:2xl:ml-6 rtl:2xl:mr-6 group/item transition-all flex lg:flex-nowrap justify-center flex-wrap items-center lg:border-b-2 border-transparent lg:hover:border-violet-900 group-[.default]:ltr:lg:ml-3 group-[.default]:rtl:lg:mr-3 group-[.white]:xl:border-b-2 group-[.white]:xl:border-t-0 group-[.white]:border-t-1 lg:border-t-0 border-t border-t-gray-900/10 dark:border-t-white/05 dark:border-t-white/10 relative group-[.white]:hover:border-t-gray-900/10 group-[.white]:hover:border-b-white group-[.full-screen]:mx-0 group-[.full-screen]:border-b-0 group-[.full-screen]:border-t-gray-800/10 group-[.full-screen]:border-t-1 group-[.full-screen]:hover:border-gray-800/10",
+					"class": "w-full hidden group-[.full-screen]:group/item:hidden lg:group-[.default]:group-hover/item:block  xl:group-[.white]:group-hover/item:block lg:group-[.white]:group/item:hidden mega-menu lg:absolute w-full right-0 z-10 bg-violet-400 top-[100%] min-w-[200px] py-4 ",
+					"child_item": [
+						{
+							"label": "All Pages",
+							"item": [
+								{
+									"slug": "/solitaire",
+									"title": "Solitaire"
+								},
+								{
+									"slug": "/shop",
+									"title": "Shop"
+								},
+								{
+									"slug": "/single-shop",
+									"title": "Single Shop"
+								},
+								{
+									"slug": "/single-shop-v2",
+									"title": "Single Shop V2"
+								},
+								{
+									"slug": "/single-shop-v3",
+									"title": "Single Shop V3"
+								},
+								{
+									"slug": "/design-setting",
+									"title": "Design Setting"
+								},
+								{
+									"slug": "/blog",
+									"title": "Latest blog"
+								},
+								{
+									"slug": "/blog-grid",
+									"title": "Blog Grid"
+								},
+								{
+									"slug": "blog-list",
+									"title": "Blog List"
+								},
+								{
+									"slug": "/single-blog",
+									"title": "Blog Detail"
+								},
+								{
+									"slug": "/branches",
+									"title": "Branches"
+								},
+								{
+									"slug": "/faq",
+									"title": "Faq's"
+								},
+								{
+									"slug": "/contact-us",
+									"title": "Contact us"
+								},
+								{
+									"slug": "404",
+									"title": "404"
+								},
+								{
+									"slug": "/privacy-policy",
+									"title": "Privacy Policy"
+								},
+								{
+									"slug": "/terms&conditions",
+									"title": "Terms & Conditions"
+								},
+								{
+									"slug": "/my-account",
+									"title": "My Account"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	}
+]

@@ -1,0 +1,11 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Wedding/wedding-hero.jpg",
+       "mobile_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Wedding/wedding-hero-mobile.jpg",
+       "title":"Wedding",
+       "description":"Lorem Ipsum available, but the majority have suffered alteration in some form.",
+       "alt":"Wedding",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    }
+ ]

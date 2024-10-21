@@ -1,0 +1,46 @@
+[
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/blog-1-h4.jpg",
+      "blog_alt": "stunning gemstone bracelet",
+      "title": "stunning gemstone bracelet",
+      "short_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20 oct, 2023"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/blog-2-h4.jpg",
+      "blog_alt": "Diamond engagement Ring",
+      "title": "Diamond engagement Ring",
+      "short_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20 oct, 2023"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/blog-3-h4.jpg",
+      "blog_alt": "yellow gold diamond bangle",
+      "title": "yellow gold diamond bangle",
+      "short_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20 oct, 2023"
+   },
+   {
+      "slug": "/single-blog",
+      "blog_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/home-4/blog-1-h4.jpg",
+      "blog_alt": "Engage Rings",
+      "title": "stunning gemstone bracelet",
+      "short_des": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.",
+      "btn_label": "Read More",
+      "btn_icon_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/arrow-right.svg",
+      "btn_img_alt": "Read More",
+      "published_date":"20 oct, 2023"
+   }
+]

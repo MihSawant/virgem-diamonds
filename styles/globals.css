@@ -1,0 +1,676 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Bold.eot');
+  src: url('../public/fonts/Almarai-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Bold.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Bold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Light.eot');
+  src: url('../public/fonts/Almarai-Light.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Light.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-ExtraBold.eot');
+  src: url('../public/fonts/Almarai-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-ExtraBold.woff2') format('woff2'),
+    url('../public/fonts/Almarai-ExtraBold.woff') format('woff');
+  font-weight: bold;
+  font-style: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'almarai';
+  src: url('../public/fonts/Almarai-Regular.eot');
+  src: url('../public/fonts/Almarai-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Almarai-Regular.woff2') format('woff2'),
+    url('../public/fonts/Almarai-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'nabi';
+  src: url('../public/fonts/nabi-regular.eot');
+  src: url('../public/fonts/nabi-regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/nabi-regular.woff2') format('woff2'),
+    url('../public/fonts/nabi-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Medium.eot');
+  src: url('../public/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Medium.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Medium.woff') format('woff'),
+    url('../public/fonts/Montserrat-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-SemiBold.eot');
+  src: url('../public/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-SemiBold.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-SemiBold.woff') format('woff'),
+    url('../public/fonts/Montserrat-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Bold.eot');
+  src: url('../public/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Bold.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Bold.woff') format('woff'),
+    url('../public/fonts/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'montserrat';
+  src: url('../public/fonts/Montserrat-Regular.eot');
+  src: url('../public/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/Montserrat-Regular.woff2') format('woff2'),
+    url('../public/fonts/Montserrat-Regular.woff') format('woff'),
+    url('../public/fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'catchye';
+  src: url('../public/fonts/CatchyeDemo.eot');
+  src: url('../public/fonts/CatchyeDemo.eot?#iefix') format('embedded-opentype'),
+    url('../public/fonts/CatchyeDemo.woff2') format('woff2'),
+    url('../public/fonts/CatchyeDemo.woff') format('woff'),
+    url('../public/fonts/CatchyeDemo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+[data-theme='caramel'] {
+  --background: theme('colors.white');
+
+  --accent-dark: theme('colors.caramel.900');
+  --accent-medium: theme('colors.caramel.400');
+  --accent-light: theme('colors.caramel.400');
+}
+
+[data-theme='pink'] {
+  --background: theme('colors.gray.900');
+  --background-secondary: theme('colors.gray.800');
+
+  --accent-dark: theme('colors.pink.900');
+  --accent-medium: theme('colors.pink.700');
+  --accent-light: theme('colors.pink.500');
+
+  --primary-dark: theme('colors.gray.300');
+  --primary-medium: theme('colors.gray.200');
+  --primary-light: theme('colors.gray.100');
+}
+
+@layer base {
+  body {
+    font-family: almarai, montserrat, system-ui, sans-serif;
+
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: nabi, catchye, system-ui, sans-serif;
+  }
+
+  .all-btn {
+    @apply bg-violet-900 hover:bg-gray-800 text-white 2xl:text-lg lg:text-[17px] text-md font-light cursor-pointer md:py-2.5 py-2 md:px-10 px-6 inline-block;
+  }
+
+  .btn-outline {
+    @apply bg-transparent hover:bg-white hover:text-gray-800 border border-white text-white 2xl:text-lg lg:text-[17px] text-md font-light cursor-pointer md:py-3.5 py-2 md:px-10 px-6 inline-block;
+  }
+
+  .swiper.swiper-horizontal {
+    @apply px-4 -mx-4;
+  }
+
+  .swiper .swiper-button-prev,
+  .swiper .swiper-button-next {
+    @apply border border-violet-900 bg-white hover:bg-violet-400 lg:w-10 w-8 lg:h-10 h-8 rounded-full text-violet-900 flex items-center justify-center mt-0 -translate-y-2/4;
+  }
+
+  .swiper .swiper-button-prev {
+    @apply left-0;
+  }
+
+  .swiper .swiper-button-next {
+    @apply right-0;
+  }
+
+  .swiper .swiper-button-next:after {
+    @apply text-[0] bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/right-triangle.svg')] bg-contain lg:w-5 w-4 lg:h-4 h-3.5 bg-center bg-no-repeat;
+  }
+
+  .swiper .swiper-button-prev:after {
+    @apply bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/left_triangle.svg')] text-[0] bg-contain lg:w-5 w-4 lg:h-4 h-3.5 bg-center bg-no-repeat;
+  }
+
+  .wp-top-arrows .swiper {
+    @apply lg:pt-20 lg:pb-0 pb-12 lg:-mt-20;
+  }
+
+  .wp-top-arrows .swiper .swiper-button-next {
+    @apply lg:top-6 lg:bottom-auto bottom-0 top-auto lg:right-0;
+  }
+
+  .wp-top-arrows .swiper .swiper-button-prev {
+    @apply lg:top-6 lg:bottom-auto bottom-0 top-auto lg:left-auto lg:right-0 lg:right-14;
+  }
+
+  .wp-top-arrows.full-screen-slider .swiper {
+    @apply overflow-visible;
+  }
+
+  .wp-testimonial .swiper {
+    @apply static md:max-w-[90%] m-auto;
+  }
+
+  .swiper.animated_bg_slider .swiper-pagination {
+    @apply absolute md:inline-block hidden 2xl:max-w-[35%] max-w-[30%] align-middle ml-5 xl:left-[calc(50%+170px)] lg:left-[calc(50%+150px)] left-[calc(50%+120px)] xl:bottom-24 bottom-11 top-auto bg-[#d9d9d9] h-[3px];
+  }
+
+  .swiper.animated_bg_slider .swiper-pagination .swiper-pagination-progressbar-fill {
+    @apply bg-yellow-900;
+  }
+
+  .swiper.animated_thumb_slider {
+    @apply overflow-visible max-w-[250px];
+  }
+
+  .animated_bg_slider .swiper-button-prev,
+  .animated_bg_slider .swiper-button-next {
+    @apply absolute inline-flex md:left-1/2 left-auto top-auto xl:bottom-16 md:bottom-9 bottom-16 md:right-auto sm:right-12 right-8 align-middle ml-2 bg-transparent hover:bg-white border-white brightness-[400] hover:brightness-100 xl:w-16 xl:h-16 lg:w-14 lg:h-14 md:w-12 md:h-12 w-10 h-10 border-[1.5px];
+  }
+
+  .animated_bg_slider .swiper-button-next {
+    @apply xl:left-[calc(50%+75px)] md:left-[calc(50%+65px)];
+  }
+
+  .animated_bg_slider .swiper-button-prev {
+    @apply md:right-auto sm:right-24 right-20;
+  }
+
+  .animated_bg_slider .swiper-button-prev:after,
+  .animated_bg_slider .swiper-button-next:after {
+    @apply xl:w-7 xl:h-7 lg:w-6 lg:h-6 md:w-5 md:h-5 w-4 h-4 invert;
+  }
+
+  .animated_bg_slider .swiper-button-prev:after {
+    @apply -ml-1;
+  }
+
+  .animated_bg_slider .swiper-button-next:after {
+    @apply -mr-1;
+  }
+
+  .thumb_slide_wrap {
+    @apply w-1/2 absolute xl:bottom-40 lg:bottom-28 bottom-20 left-1/2 overflow-hidden w-full max-w-[50%];
+  }
+
+  .swiper.arrow-bottom .swiper-button-prev,
+  .swiper.arrow-bottom .swiper-button-next {
+    @apply static md:mt-10 mt-6 mx-2 inline-flex;
+  }
+
+  .swiper.arrow-bottom {
+    @apply text-center;
+  }
+
+  /*  =============================
+
+    Color switcher
+
+    ==================================  */
+  [theme-type='caramel'] .bg-violet-900 {
+    @apply bg-caramel-900;
+  }
+
+  [theme-type='caramel'] .bg-violet-400 {
+    @apply bg-caramel-400;
+  }
+
+  [theme-type='caramel'] .stroke-violet-900 {
+    @apply stroke-caramel-900;
+  }
+
+  [theme-type='caramel'] .fill-violet-900 {
+    @apply fill-caramel-900;
+  }
+
+  [theme-type='caramel'] .border-violet-900 {
+    @apply border-caramel-900;
+  }
+
+  [theme-type='caramel'] .outline-violet-900 {
+    @apply outline-caramel-900;
+  }
+
+  [theme-type='caramel'] .text-violet-900 {
+    @apply text-caramel-900;
+  }
+
+  [theme-type='caramel'] .swiper .swiper-button-prev:after,
+  [theme-type='caramel'] .swiper .swiper-button-next:after,
+  [theme-type='pink'] .swiper .swiper-button-prev:after,
+  [theme-type='pink'] .swiper .swiper-button-next:after,
+  [theme-type='purple'] .swiper .swiper-button-prev:after,
+  [theme-type='purple'] .swiper .swiper-button-next:after {
+    filter: brightness(0);
+  }
+
+  [theme-type='caramel'] .bg-transparent,
+  [theme-type='pink'] .bg-transparent,
+  [theme-type='purple'] .bg-transparent {
+    background-color: transparent;
+  }
+
+  [theme-type='pink'] .bg-violet-900 {
+    @apply bg-pink-900;
+  }
+
+  [theme-type='pink'] .stroke-violet-900 {
+    @apply stroke-pink-900;
+  }
+
+  [theme-type='pink'] .fill-violet-900 {
+    @apply fill-pink-900;
+  }
+
+  [theme-type='pink'] .border-violet-900 {
+    @apply border-pink-900;
+  }
+
+  [theme-type='pink'] .text-violet-900 {
+    @apply text-pink-900;
+  }
+
+  [theme-type='pink'] .bg-violet-400 {
+    @apply bg-pink-400;
+  }
+
+  [theme-type='pink'] .wp-clarity-box a,
+  [theme-type='caramel'] .wp-clarity-box a {
+    @apply hover:text-white;
+  }
+
+  [theme-type='purple'] .bg-violet-900 {
+    @apply bg-purple-900;
+  }
+
+  [theme-type='purple'] .stroke-violet-900 {
+    @apply stroke-purple-900;
+  }
+
+  [theme-type='purple'] .fill-violet-900 {
+    @apply fill-purple-900;
+  }
+
+  [theme-type='purple'] .border-violet-900 {
+    @apply border-purple-900;
+  }
+
+  [theme-type='purple'] .all-btn.bg-white,
+  [theme-type='caramel'] .all-btn.bg-white,
+  [theme-type='pink'] .all-btn.bg-white {
+    background-color: #fff
+  }
+
+  [theme-type='purple'] .text-violet-900 {
+    @apply text-purple-900;
+  }
+
+  [theme-type='purple'] .bg-violet-400 {
+    @apply bg-purple-400;
+  }
+
+  [theme-type='purple'] .wp-clarity-box a,
+  [theme-type='caramel'] .wp-clarity-box a {
+    @apply hover:text-white;
+  }
+
+  .theme-changer .theme-select {
+    @apply h-auto;
+  }
+
+  .theme-changer .theme-select button,
+  .theme-changer .Navtheme-select button {
+    @apply uppercase md:text-[15px] text-sm bg-violet-400 p-1.5 sm:p-2 w-1/2 flex items-center border border-violet-400 flex-1;
+  }
+
+  .theme-changer .Navtheme-select button {
+    @apply justify-center;
+  }
+
+  .theme-changer .theme-select button .switch-icon {
+    @apply lg:w-10 w-7 lg:h-7 h-6 ltr:mr-2.5 rtl:ml-2.5 block;
+  }
+
+  #static .theme-changer .Navtheme-select button[value='static'],
+  #sticky .theme-changer .Navtheme-select button[value='sticky'],
+  [dir='ltr'] .theme-changer .theme-select button[value='ltr'],
+  [dir='rtl'] .theme-changer .theme-select button[value='rtl'] {
+    @apply bg-violet-900 text-white;
+  }
+
+  .theme-changer .theme-select button[value='violet'] .switch-icon {
+    @apply bg-violet-900;
+  }
+
+  .theme-changer .theme-select button[value='pink'] .switch-icon {
+    @apply bg-pink-900;
+  }
+
+  .theme-changer .theme-select button[value='purple'] .switch-icon {
+    @apply bg-purple-900;
+  }
+
+  .theme-changer .theme-select button[value='caramel'] .switch-icon {
+    @apply bg-caramel-900;
+  }
+
+  [theme-type='pink'] .theme-changer .theme-select button[value='pink'] {
+    @apply border-pink-900;
+  }
+
+  [theme-type='purple'] .theme-changer .theme-select button[value='purple'] {
+    @apply border-purple-900;
+  }
+
+  [theme-type='caramel'] .theme-changer .theme-select button[value='caramel'] {
+    @apply border-caramel-900;
+  }
+
+  [theme-type='violet'] .theme-changer .theme-select button[value='violet'] {
+    @apply border-violet-900;
+  }
+
+  [theme-type='pink'] .theme-changer .theme-select button[value='violet'] .switch-icon,
+  [theme-type='purple'] .theme-changer .theme-select button[value='violet'] .switch-icon,
+  [theme-type='caramel'] .theme-changer .theme-select button[value='violet'] .switch-icon {
+    @apply bg-violet-900;
+  }
+
+  /*  =============================
+
+    Color switcher end
+
+    ==================================  */
+
+  /*  =============================
+
+    Sticky headers 
+
+    ==================================  */
+
+  #sticky[scroll-sticky='yes'] .header1 {
+    @apply sticky lg:-top-32 -top-2.5 z-20 shadow-lg animate-slideDown;
+  }
+
+  #sticky[scroll-sticky='yes'] .header1 .menu-wrap {
+    @apply lg:mt-0 -mt-10;
+  }
+
+  .menu-wrap .site-logo {
+    @apply hidden;
+  }
+
+  #sticky[scroll-sticky='yes'] .header1 .menu-wrap .site-logo {
+    @apply 1xl:block hidden;
+  }
+
+  #sticky[scroll-sticky='yes'] .header1 .menu-wrap .nav-categories {
+    @apply lg:hidden block;
+  }
+
+  #sticky[scroll-sticky='yes'] .header1 .top-bar {
+    @apply lg:block hidden lg:opacity-100 opacity-0;
+  }
+
+  #sticky[scroll-sticky='yes'] .header1 .header-middle {
+    @apply lg:pt-0 pt-2 bg-white z-10 relative;
+  }
+
+  #sticky[scroll-sticky='yes'] .header2 {
+    @apply fixed -top-8 z-20 shadow-lg animate-slideDown bg-gray-700/80;
+  }
+
+  #sticky[scroll-sticky='yes'] .header3 {
+    @apply fixed -top-0 z-20 shadow-lg animate-slideDown bg-white;
+  }
+
+  #sticky[scroll-sticky='yes'] .header3 .text-change .text-white {
+    @apply text-gray-900 font-[500];
+  }
+
+  #sticky[scroll-sticky='yes'] .header3 button span {
+    @apply bg-gray-800;
+  }
+
+  #sticky[scroll-sticky='yes'] .header3 .header-icons,
+  #sticky[scroll-sticky='yes'] .header3 .white-img {
+    @apply filter-none;
+  }
+
+  #sticky[scroll-sticky='yes'] .header4 {
+    @apply sticky lg:-top-[136px] md:-top-[100px] sm:-top-[93px] -top-[85px] z-20 shadow-lg animate-slideDown;
+  }
+
+  #sticky[scroll-sticky='yes'] .header4 .menu-wrap .site-logo {
+    @apply brightness-[400] lg:py-0 py-3
+  }
+
+  #sticky[scroll-sticky='yes'] .header4 .menu-wrap .nav-categories {
+    @apply hidden;
+  }
+
+  #sticky[scroll-sticky='yes'] .header4 .menu-wrap .site-logo {
+    @apply 1xl:block lg:hidden block;
+  }
+
+  @keyframes slideDown {
+    0% {
+      transform: translateY(-100%);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  /*  =============================
+
+    Sticky headers end
+
+    ==================================  */
+
+  .mega-menu.menu_open {
+    @apply block lg:hidden;
+  }
+
+  .large-screen .mega-menu.menu_open,
+  .group.white.large-screen .mega-menu.menu_open {
+    @apply block xl:hidden;
+  }
+
+  .main-nav.group.full-screen .mega-menu.menu_open {
+    @apply block;
+  }
+
+  .testimonial_thumbs.swiper-thumbs {
+    @apply overflow-visible mx-auto md:max-w-[160px] max-w-[140px];
+  }
+
+  .testimonial_thumbs .swiper-wrapper {
+    @apply items-center overflow-visible;
+  }
+
+  .testimonial_thumbs .swiper-slide-next img,
+  .testimonial_thumbs .swiper-slide-prev img {
+    @apply md:w-20 w-14 md:h-20;
+  }
+
+  .testimonial_thumbs .swiper-slide-active {
+    @apply md:p-4 p-2;
+  }
+
+  .testimonial_thumbs .swiper-slide-active img {
+    @apply md:w-24 md:h-24 w-20 h-20 outline outline-1 outline-offset-4 outline-violet-900;
+  }
+
+  .swiper-button.swiper-button-disabled {
+    @apply opacity-50;
+  }
+
+  .swiper.custom-pagination .swiper-pagination .swiper-pagination-bullet {
+    @apply bg-transparent border-1 border-gray-900 w-3.5 h-3.5 opacity-100;
+  }
+
+  .swiper.custom-pagination .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-gray-900;
+  }
+
+  .swiper.custom-pagination .swiper-pagination {
+    @apply static mt-10 text-left;
+  }
+
+  .animated_thumb_slider .swiper-slide-thumb-active img {
+    @apply border-violet-400
+  }
+
+  .header3 .lg\:w-1\/6 {
+    @apply 2xl:w-1/6 lg:w-1/4;
+  }
+
+  .header3 .lg\:w-2\/6 {
+    @apply 2xl:w-2/6 lg:w-1/2;
+  }
+
+  .header3 .lg\:w-\[32\%\] {
+    @apply 2xl:w-[27%] w-full;
+  }
+
+  .header3 .grid.lg\:grid-cols-5 {
+    @apply 2xl:grid-cols-5 lg:grid-cols-3;
+  }
+
+  .header3 .xl\:w-1\/6 {
+    @apply 2xl:w-1/6 sm:w-1/2
+  }
+
+  .header3 .xl\:w-4\/6 {
+    @apply 2xl:w-4/6 w-full
+  }
+
+  .header3 .lg\:w-3\/6 {
+    @apply 2xl:w-3/6 w-full
+  }
+
+  .header3 .lg\:w-3\/6.lg\:pl-8 {
+    @apply 2xl:pl-8 pl-0
+  }
+
+  .swiper.Product_Thumbslider .swiper-slide {
+    @apply opacity-60 hover:opacity-100
+  }
+
+  .swiper.Product_Thumbslider .swiper-slide.swiper-slide-thumb-active {
+    @apply opacity-100
+  }
+
+  .swiper.intro-pages .swiper-slide {
+    @apply transition-all lg:pt-16 sm:pt-8
+  }
+
+  .swiper.intro-pages .swiper-slide.swiper-slide-active {
+    @apply pt-0
+  }
+
+  .product-thumbs .swiper-wrapper {
+    @apply md:block
+  }
+
+  .product-thumbs .swiper-slide {
+    @apply border border-violet-400 transition-all
+  }
+
+  .product-thumbs .swiper-slide-thumb-active, .product-thumbs .swiper-slide:hover {
+    @apply border-violet-900
+  }
+
+  .shape-filter .btn-more {
+    @apply flex-col-reverse p-2 lg:p-3.5 hover:bg-white
+  }
+
+  .shape-filter .btn-more span {
+    @apply w-full bg-violet-400 flex items-center justify-center lg:leading-5 leading-4 p-1 mt-1.5 lg:min-h-[35px] min-h-[30px] text-gray-900
+  }
+
+  .shape-filter .btn-more svg {
+    @apply my-auto 2xl:w-14 2xl:h-14 lg:w-11 lg:h-11 w-9 h-9 2xl:p-5 lg:p-4 p-2 bg-violet-900 stroke-white flex items-center justify-center rounded-full
+  }
+
+  button.tab-both-arrow {
+    @apply before:content-[''] md:before:bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/other/diamondtab-arrows.svg')] before:bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/other/diamondtab-arrows-m.svg')] before:2xl:w-36 before:1xl:w-28 before:lg:w-20 before:md:w-14 before:w-full before:inline-block before:h-4 before:bg-no-repeat before:bg-center before:bg-contain before:absolute 2xl:before:-left-44 1xl:before:-left-36 xl:before:-left-32 lg:before:-left-24 md:before:-left-20 before:left-0 md:before:top-auto before:-top-6 before:pointer-events-none after:content-[''] md:after:bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/other/diamondtab-arrows.svg')] after:bg-[url('https://webby-production.s3.amazonaws.com/Starry-Heavens/other/diamondtab-arrows-m.svg')] after:2xl:w-36 after:1xl:w-28 after:lg:w-20 after:md:w-14 after:w-full after:inline-block after:h-4 after:bg-no-repeat after:bg-center after:bg-contain after:absolute 2xl:after:-right-44 1xl:after:-right-36 xl:after:-right-32 lg:after:-right-24 after:md:-right-20 after:right-0 after:md:bottom-auto after:-bottom-6 after:pointer-events-none
+  }
+}
+
+.scrollStyle {
+  @apply pr-2 -mr-2
+}
+
+/* width */
+.scrollStyle::-webkit-scrollbar {
+  @apply w-1.5
+}
+
+/* Track  */
+.scrollStyle::-webkit-scrollbar-track {
+  @apply bg-gray-300
+}
+
+/* Handle  */
+.scrollStyle::-webkit-scrollbar-thumb {
+  @apply bg-violet-900 rounded-xl
+}

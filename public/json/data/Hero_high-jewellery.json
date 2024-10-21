@@ -1,0 +1,11 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/high-jewellery/high-jewellery-hero.jpg",
+       "mobile_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/high-jewellery/high-jewellery-hero-mobile.jpg",
+       "title":"high Jewellery",
+       "description":"Lorem Ipsum available, but the majority have suffered alteration in some form.",
+       "alt":"high Jewellery",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    }
+ ]

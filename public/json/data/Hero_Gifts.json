@@ -1,0 +1,11 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-hero.png",
+       "mobile_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-hero-mobile.jpg",
+       "title":"Gifts",
+       "description":"Lorem Ipsum available, but the majority have suffered alteration in some form.",
+       "alt":"Gifts",
+       "btn_label":"Shop Now",
+       "btn_slug":"/shop"
+    }
+ ]

@@ -1,0 +1,317 @@
+[
+   {
+      "StyleDesign": [
+         {
+            "title": "Split Prong",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Traditional",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Graduated",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Diamond Arch",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Pave",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Split Shank",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Double Twist",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "French Pave",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Floating Marquise",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Split Prong",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Diamond Arch",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Pave",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Split Shank",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "Double Twist",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         },
+         {
+            "title": "French Pave",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/other/golden-ring.png"
+         }
+      ],
+      "diamond_share": [
+         {
+            "title": "Round",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/round-diamond.png"
+         },
+         {
+            "title": "Princess",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/princess-diamond.png"
+         },
+         {
+            "title": "Radiant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/radiant-diamond.png"
+         },
+         {
+            "title": "Sq. Radiant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/sqradiant-diamond.png"
+         },
+         {
+            "title": "Heart",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/heart-diamond.png"
+         },
+         {
+            "title": "Cushion Brilliant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/cushion-brilliant-diamond.png"
+         },
+         {
+            "title": "Cushion Modified",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/cushion-modifier-diamond.png"
+         },
+         {
+            "title": "Pear",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/pear-diamond.png"
+         },
+         {
+            "title": "Oval",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/oval-diamond.png"
+         },
+         {
+            "title": "Marquise",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/marquise-diamond.png"
+         },
+         {
+            "title": "Emerald",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/emerald-diamond.png"
+         },
+         {
+            "title": "Sq. Emerald",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/sqemerald-diamond.png"
+         },
+         {
+            "title": "Triangular",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tringular-diamond.png"
+         },
+         {
+            "title": "Buguette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/BAGUETTE-diamond.png"
+         },
+         {
+            "title": "Tapered-Bullet",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tapered-bullet-diamond.png"
+         },
+         {
+            "title": "Tapered Baguette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tapperd-bagguete-diamond.png"
+         },
+         {
+            "title": "Asscher",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/asscher-diamond.png"
+         },
+         {
+            "title": "Rose",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/rose-diamond.png"
+         },
+         {
+            "title": "Half-Moon",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/half-moon-diamond.png"
+         },
+         {
+            "title": "Star",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/star-diamond.png"
+         },
+         {
+            "title": "Kite",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/Kite-diamond.png"
+         },
+         {
+            "title": "Briolette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/briolette-diamond.png"
+         },
+         {
+            "title": "Trilliant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/trillian-diamond.png"
+         },
+         {
+            "title": "European Cut",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/europian-diamond.png"
+         },
+         {
+            "title": "Old Miner",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/old-minor-diamond.png"
+         },
+         {
+            "title": "Flanders",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/flander-diamond.png"
+         },
+         {
+            "title": "Trapezoid",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/trapeziod-diamond.png"
+         },
+         {
+            "title": "Bullets",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/bullet-diamond.png"
+         },
+         {
+            "title": "Hexagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/hexagone-diamond.png"
+         },
+         {
+            "title": "Lozenge",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/lozenge-diamond.png"
+         },
+         {
+            "title": "Pentagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/pentagonal-diamond.png"
+         },
+         {
+            "title": "Shield",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/shield-diamond.png"
+         },
+         {
+            "title": "Square",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/square-diamond.png"
+         },
+         {
+            "title": "Octagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/octangone-diamond.png"
+         },
+         {
+            "title": "Flanders",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/flander-diamond.png"
+         }
+      ],
+      "carat": [
+         {
+            "item": "0.30 Down"
+         },
+         {
+            "item": "0.30 - 0.39"
+         },
+         {
+            "item": "0.40 - 0.49"
+         },
+         {
+            "item": "0.50 - 0.59"
+         },
+         {
+            "item": "0.60 - 0.69"
+         },
+         {
+            "item": "0.70 - 0.79"
+         },
+         {
+            "item": "0.80 - 0.89"
+         },
+         {
+            "item": "0.90 - 0.99"
+         },
+         {
+            "item": "1.00 - 1.49"
+         },
+         {
+            "item": "1.50 - 1.99"
+         },
+         {
+            "item": "2.00 - 2.99"
+         },
+         {
+            "item": "3.00 - 3.99"
+         },
+         {
+            "item": "4.00 - 4.99"
+         },
+         {
+            "item": "5.00 - 5.99"
+         },
+         {
+            "item": "6.00 - 6.99"
+         },
+         {
+            "item": "7.00 - 7.99"
+         },
+         {
+            "item": "8.00 - 8.99"
+         },
+         {
+            "item": "9.00 - 9.99"
+         },
+         {
+            "item": "10.00+"
+         }
+      ],
+      "metal":[
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/gold.png",
+            "slug": "#",
+            "alt": "Yellow Gold",
+            "title": "Yellow Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/silver.png",
+            "alt": "White Gold",
+            "slug": "#",
+            "title": "White Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/rose-gold.png",
+            "alt": "Rose Gold",
+            "slug": "#",
+            "title": "Rose Gold"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/platinum.png",
+            "alt": "Platinum",
+            "slug": "#",
+            "title": "Platinum"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/nickel.png",
+            "alt": "Nickel",
+            "slug": "#",
+            "title": "Nickel"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/copper.png",
+            "alt": "Coper",
+            "slug": "#",
+            "title": "Coper"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/titanium.png",
+            "alt": "Titanium",
+            "slug": "#",
+            "title": "Titanium"
+         },
+         {
+            "icon": "https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/palladium.png",
+            "alt": "Palladium",
+            "slug": "#",
+            "title": "Palladium"
+         }
+      ]
+   }
+]

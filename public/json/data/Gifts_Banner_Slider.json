@@ -1,0 +1,34 @@
+[
+   {
+      "title":"jewellery gift",
+      "main_img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-jew-slider-1.jpg",
+      "items": [
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-jew-slider-2.jpg",
+            "img_alt":"gift-jewellery-1",
+            "link": "/single-shop-v2"
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-jew-slider-3.jpg",
+            "img_alt":"gift-jewellery-2",
+            "link": "/single-shop-v2"
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-jew-slider-4.jpg",
+            "img_alt":"gift-jewellery-3",
+            "link": "/single-shop-v2"
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-banner-1.jpg",
+            "img_alt":"gift-jewellery-2",
+            "link": "/single-shop-v2"
+         },
+         {
+            "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-banner-2.jpg",
+            "img_alt":"gift-jewellery-3",
+            "link": "/single-shop-v2"
+         }
+      ]
+   }
+]
+   

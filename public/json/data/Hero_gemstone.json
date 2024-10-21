@@ -1,0 +1,11 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gemstone/gemstone-hero.jpg",
+       "mobile_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gemstone/gemstone-hero-mobile.jpg",
+       "title":"Gemstones",
+       "description":"Lorem Ipsum available, but the majority have suffered alteration in some form.",
+       "alt":"Gemstones",
+       "btn_label":"Shop Now",
+       "btn_slug":"#"
+    }
+ ]

@@ -1,0 +1,520 @@
+[
+   {
+      "white_diamond_color": [
+         {
+            "item": "D"
+         },
+         {
+            "item": "E"
+         },
+         {
+            "item": "F"
+         },
+         {
+            "item": "G"
+         },
+         {
+            "item": "H"
+         },
+         {
+            "item": "I"
+         },
+         {
+            "item": "J"
+         },
+         {
+            "item": "K"
+         },
+         {
+            "item": "L"
+         },
+         {
+            "item": "M"
+         },
+         {
+            "item": "N"
+         },
+         {
+            "item": "O-P"
+         },
+         {
+            "item": "Q-R"
+         },
+         {
+            "item": "S-T"
+         },
+         {
+            "item": "U-V"
+         },
+         {
+            "item": "W-X"
+         },
+         {
+            "item": "Y-Z"
+         }
+      ],
+      "white_diamond_share": [
+         {
+            "item": "Round",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/round-diamond.png"
+         },
+         {
+            "item": "Princess",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/princess-diamond.png"
+         },
+         {
+            "item": "Radiant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/radiant-diamond.png"
+         },
+         {
+            "item": "Sq. Radiant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/sqradiant-diamond.png"
+         },
+         {
+            "item": "Heart",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/heart-diamond.png"
+         },
+         {
+            "item": "Cushion Brilliant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/cushion-brilliant-diamond.png"
+         },
+         {
+            "item": "Cushion Modified",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/cushion-modifier-diamond.png"
+         },
+         {
+            "item": "Pear",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/pear-diamond.png"
+         },
+         {
+            "item": "Oval",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/oval-diamond.png"
+         },
+         {
+            "item": "Marquise",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/marquise-diamond.png"
+         },
+         {
+            "item": "Emerald",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/emerald-diamond.png"
+         },
+         {
+            "item": "Sq. Emerald",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/sqemerald-diamond.png"
+         },
+         {
+            "item": "Triangular",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tringular-diamond.png"
+         },
+         {
+            "item": "Buguette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/BAGUETTE-diamond.png"
+         },
+         {
+            "item": "Tapered-Bullet",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tapered-bullet-diamond.png"
+         },
+         {
+            "item": "Tapered Baguette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/tapperd-bagguete-diamond.png"
+         },
+         {
+            "item": "Asscher",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/asscher-diamond.png"
+         },
+         {
+            "item": "Rose",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/rose-diamond.png"
+         },
+         {
+            "item": "Half-Moon",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/half-moon-diamond.png"
+         },
+         {
+            "item": "Star",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/star-diamond.png"
+         },
+         {
+            "item": "Kite",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/Kite-diamond.png"
+         },
+         {
+            "item": "Briolette",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/briolette-diamond.png"
+         },
+         {
+            "item": "Trilliant",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/trillian-diamond.png"
+         },
+         {
+            "item": "European Cut",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/europian-diamond.png"
+         },
+         {
+            "item": "Old Miner",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/old-minor-diamond.png"
+         },
+         {
+            "item": "Flanders",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/flander-diamond.png"
+         },
+         {
+            "item": "Trapezoid",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/trapeziod-diamond.png"
+         },
+         {
+            "item": "Bullets",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/bullet-diamond.png"
+         },
+         {
+            "item": "Hexagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/hexagone-diamond.png"
+         },
+         {
+            "item": "Lozenge",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/lozenge-diamond.png"
+         },
+         {
+            "item": "Pentagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/pentagonal-diamond.png"
+         },
+         {
+            "item": "Shield",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/shield-diamond.png"
+         },
+         {
+            "item": "Square",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/square-diamond.png"
+         },
+         {
+            "item": "Octagonal",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/octangone-diamond.png"
+         },
+         {
+            "item": "Flanders",
+            "img": "https://webby-production.s3.amazonaws.com/Starry-Heavens/diamond-filter/flander-diamond.png"
+         }
+      ],
+      "fancy_color": [
+         {
+            "intesity": [
+               {
+                  "item": "Faint"
+               },
+               {
+                  "item": "Very Light"
+               },
+               {
+                  "item": "Light"
+               },
+               {
+                  "item": "Fancy Light"
+               },
+               {
+                  "item": "Fancy"
+               },
+               {
+                  "item": "Fancy Dark"
+               },
+               {
+                  "item": "Fancy Intense"
+               },
+               {
+                  "item": "Fancy Vivid"
+               },
+               {
+                  "item": "Fancy Deep"
+               }
+            ],
+            "overtone": [
+               {
+                  "item": "None"
+               },
+               {
+                  "item": "Yellow"
+               },
+               {
+                  "item": "Yellowish"
+               },
+               {
+                  "item": "Pink"
+               },
+               {
+                  "item": "Pinkish"
+               },
+               {
+                  "item": "Blue"
+               },
+               {
+                  "item": "Bluish"
+               },
+               {
+                  "item": "Red"
+               },
+               {
+                  "item": "Reddish"
+               },
+               {
+                  "item": "Green"
+               },
+               {
+                  "item": "Greenish"
+               },
+               {
+                  "item": "Purple"
+               },
+               {
+                  "item": "Purplish"
+               },
+               {
+                  "item": "Orange"
+               },
+               {
+                  "item": "Orangey"
+               },
+               {
+                  "item": "Violet"
+               },
+               {
+                  "item": "Gray"
+               },
+               {
+                  "item": "Grayish"
+               },
+               {
+                  "item": "Black"
+               },
+               {
+                  "item": "Brown"
+               },
+               {
+                  "item": "Brownish"
+               },
+               {
+                  "item": "Champagne"
+               },
+               {
+                  "item": "Congnac"
+               },
+               {
+                  "item": "Chameleon"
+               },
+               {
+                  "item": "Violetish"
+               },
+               {
+                  "item": "White"
+               }
+            ],
+            "colours": [
+               {
+                  "item": "Yellow",
+                  "bgcolor": "#FF0"
+               },
+               {
+                  "item": "Pink",
+                  "bgcolor": "#FFC0CB"
+               },
+               {
+                  "item": "Blue",
+                  "bgcolor": "#00F"
+               },
+               {
+                  "item": "Red",
+                  "bgcolor": "#F00"
+               },
+               {
+                  "item": "Green",
+                  "bgcolor": "#008000"
+               },
+               {
+                  "item": "Orange",
+                  "bgcolor": "#FFA500"
+               },
+               {
+                  "item": "Purple",
+                  "bgcolor": "#800080"
+               },
+               {
+                  "item": "Violet",
+                  "bgcolor": "#EE82EE"
+               },
+               {
+                  "item": "Gray",
+                  "bgcolor": "#808080"
+               },
+               {
+                  "item": "Black",
+                  "bgcolor": "#000"
+               },
+               {
+                  "item": "Brown",
+                  "bgcolor": "#A52A2A"
+               },
+               {
+                  "item": "Champagne",
+                  "bgcolor": "#F7E7CE"
+               },
+               {
+                  "item": "Cognac",
+                  "bgcolor": "#834333"
+               },
+               {
+                  "item": "Chameleon",
+                  "bgcolor": "#E0E2BE"
+               },
+               {
+                  "item": "White",
+                  "bgcolor": "#fff"
+               }
+            ]
+         }
+      ],
+      "clarity":[
+         {
+            "top_items":[
+            { "item":"VVS+" },
+            { "item":"VS+" },
+            { "item":"SI+" }
+         ],
+         "bottom_items":[
+            { "item":"FL" },
+            { "item":"IF" },
+            { "item":"VVS1" },
+            { "item":"VVS2" },
+            { "item":"VS1" },
+            { "item":"VS2" },
+            { "item":"SI1" },
+            { "item":"SI2" },
+            { "item":"SI3" },
+            { "item":"I1" },
+            { "item":"I2" },
+            { "item":"I3" }
+         ]
+         }
+      ],
+      "carat":[
+         {"item":"0.30 Down"},
+         {"item":"0.30 - 0.39"},
+         {"item":"0.40 - 0.49"},
+         {"item":"0.50 - 0.59"},
+         {"item":"0.60 - 0.69"},
+         {"item":"0.70 - 0.79"},
+         {"item":"0.80 - 0.89"},
+         {"item":"0.90 - 0.99"},
+         {"item":"1.00 - 1.49"},
+         {"item":"1.50 - 1.99"},
+         {"item":"2.00 - 2.99"},
+         {"item":"3.00 - 3.99"},
+         {"item":"4.00 - 4.99"},
+         {"item":"5.00 - 5.99"},
+         {"item":"6.00 - 6.99"},
+         {"item":"7.00 - 7.99"},
+         {"item":"8.00 - 8.99"},
+         {"item":"9.00 - 9.99"},
+         {"item":"10.00+"}
+      ],
+      "shortcuts":[
+         {"item":"3X"},
+         {"item":"EX-"},
+         {"item":"VG+"},
+         {"item":"VG-"},
+         {"item":"F+"}
+      ],
+      "cut":[
+         {"item":"IDEAL"},
+         {"item":"EXCELLENT"},
+         {"item":"VERY GOOD"},
+         {"item":"GOOD"},
+         {"item":"FAIR"},
+         {"item":"POOR"}
+      ],
+      "polish":[
+         {"item":"IDEAL"},
+         {"item":"EXCELLENT"},
+         {"item":"VERY GOOD"},
+         {"item":"GOOD"},
+         {"item":"FAIR"},
+         {"item":"POOR"}
+      ],
+      "symmetry":[
+         {"item":"IDEAL"},
+         {"item":"EXCELLENT"},
+         {"item":"VERY GOOD"},
+         {"item":"GOOD"},
+         {"item":"FAIR"},
+         {"item":"POOR"}
+      ],
+      "fluorescence":[
+         {"item":"NONE"},
+         {"item":"FAINT"},
+         {"item":"VERY SLIGHT"},
+         {"item":"SLIGHT"},
+         {"item":"MEDIUM"},
+         {"item":"STRONG"},
+         {"item":"VERY STRONG"}
+      ],
+      "labs":[
+         {"item":"GIA"},
+         {"item":"IGI"},
+         {"item":"HRD"},
+         {"item":"AGS"},
+         {"item":"RDC"},
+         {"item":"NON"},
+         {"item":"CGL"},
+         {"item":"DCLA"},
+         {"item":"GHI"},
+         {"item":"DBGIS"},
+         {"item":"GSI"},
+         {"item":"GWLAB"},
+         {"item":"NGTC"},
+         {"item":"PGS"}
+      ],
+      "fluorescence_color":[
+         {
+            "item": "Blue",
+            "bgcolor": "#00F"
+         },
+         {
+            "item": "Yellow",
+            "bgcolor": "#FF0"
+         },
+         {
+            "item": "Green",
+            "bgcolor": "#008000"
+         },
+         {
+            "item": "Red",
+            "bgcolor": "#F00"
+         },
+         {
+            "item": "Orange",
+            "bgcolor": "#FFA500"
+         },
+        {
+            "item": "White",
+            "bgcolor": "#fff"
+         }
+      ],
+      "girdle":[
+         {"item":"EXT"},
+         {"item":"VTN"},
+         {"item":"THN"},
+         {"item":"SLTHN"},
+         {"item":"MED"},
+         {"item":"SLTHK"},
+         {"item":"THK"},
+         {"item":"VTHK"},
+         {"item":"EXTHK"}
+      ],
+      "conslusion_filter":[
+         {"item":"Shade"},
+         {"item":"Milky Inclusions"},
+         {"item":"Center Inclusions"},
+         {"item":"Black Inclusions"},
+         {"item":"White Inclusions"},
+         {"item":"Eye Clean"},
+         {"item":"Key to Symbols"}
+      ]
+   }
+]

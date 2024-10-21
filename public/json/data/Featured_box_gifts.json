@@ -1,0 +1,27 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Delivery.svg",
+       "title":"Secured Insured Shipping",
+       "alt":"Secured Insured Shipping"
+    },
+    {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Support.svg",
+      "title":"24/7 Customer Service",
+      "alt":"24/7 Customer Service"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/undo-icon.svg",
+      "title":"Replacement Of 7 Days ",
+      "alt":"Replacement Of 7 Days "
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Warranty.svg",
+      "title":"Unimited Lifetime Warranty",
+      "alt":"Unimited Lifetime Warranty"
+   },
+   {
+      "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Price.svg",
+      "title":"Unbeatable Market Price",
+      "alt":"Unbeatable Market Price"
+   }
+ ]

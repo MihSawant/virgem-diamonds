@@ -1,0 +1,12 @@
+[
+    {
+       "bg_img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/home-3/bands_home3.png",
+       "title":"Offer On Purchase 4 Items",
+       "alt":"Offer On Purchase 4 Items",
+       "description":"Nemo enim ipsam voluptatem quia voluptas sit aspernatur",
+       "sale_price":"$999.00",
+       "regular_price":"$1500.00",
+       "btn_label":"Learn more",
+       "btn_slug":"/shop"
+    }
+ ]

@@ -1,0 +1,10 @@
+[
+    {
+       "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/Home/Hero.jpg",
+       "title":"The real Dimonds",
+       "description":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+       "alt":"The Real Dimonds",
+       "btn_label":"Discover Now",
+       "btn_slug":"/diamonds"
+    }
+ ]

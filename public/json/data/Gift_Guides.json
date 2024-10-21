@@ -1,0 +1,229 @@
+[
+   {
+      "key":0,
+      "title":"Jewelry Gifts Guides",
+      "content_1":"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful.",
+      "content_2":"Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae."
+   },
+   {
+      "key":1,
+      "title":"Shop Jewelry Gifts By Category",
+      "inner_accordians" : [
+         {
+            "title": "Jewelry Gifts By Type",
+            "item":[
+               {
+                  "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-1.jpg",
+                  "title":" Bracelet",
+                  "alt":" Bracelet",
+                  "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-2.jpg",
+                 "title":" Earring",
+                 "alt":" Earring",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-3.jpg",
+                 "title":" Necklace",
+                 "alt":" Necklace",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-4.jpg",
+                 "title":" Bangle",
+                 "alt":" Bangle",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-5.jpg",
+                 "title":" Ring",
+                 "alt":" Ring",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-6.jpg",
+                 "title":" Gemstone",
+                 "alt":" Gemstone",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-7.jpg",
+                 "title":" Chain",
+                 "alt":" Chain",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-8.jpg",
+                 "title":" Pendant",
+                 "alt":" Pendant",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-9.jpg",
+                 "title":" Belly chain",
+                 "alt":" Belly chain",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-10.jpg",
+                 "title":" Locket",
+                 "alt":" Locket",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-11.jpg",
+                 "title":" Brooch",
+                 "alt":" Brooch",
+                 "cat_link": "/single-shop"
+               }
+            ]
+         },
+         {
+            "title": "Jewelry Gifts By Metal",
+            "item":[
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-10.jpg",
+                "title":" Locket",
+                "alt":" Locket",
+                "cat_link": "/single-shop"
+              },
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-11.jpg",
+                "title":" Brooch",
+                "alt":" Brooch",
+                "cat_link": "/single-shop"
+              },
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-4.jpg",
+                "title":" Bangle",
+                "alt":" Bangle",
+                "cat_link": "/single-shop"
+              },
+              {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-1.jpg",
+                 "title":" Bracelet",
+                 "alt":" Bracelet",
+                 "cat_link": "/single-shop"
+              },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-5.jpg",
+                 "title":" Ring",
+                 "alt":" Ring",
+                 "cat_link": "/single-shop"
+               },
+               {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-2.jpg",
+                "title":" Earring",
+                "alt":" Earring",
+                "cat_link": "/single-shop"
+              },
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-3.jpg",
+                "title":" Necklace",
+                "alt":" Necklace",
+                "cat_link": "/single-shop"
+              },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-6.jpg",
+                 "title":" Gemstone",
+                 "alt":" Gemstone",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-7.jpg",
+                 "title":" Chain",
+                 "alt":" Chain",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-8.jpg",
+                 "title":" Pendant",
+                 "alt":" Pendant",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-9.jpg",
+                 "title":" Belly chain",
+                 "alt":" Belly chain",
+                 "cat_link": "/single-shop"
+               }
+            ]
+         },
+         {
+            "title": "Jewelry Gifts By Gemstone",
+            "item":[
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-9.jpg",
+                "title":" Belly chain",
+                "alt":" Belly chain",
+                "cat_link": "/single-shop"
+              },
+              {
+                "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-2.jpg",
+                "title":" Earring",
+                "alt":" Earring",
+                "cat_link": "/single-shop"
+              },
+               {
+                  "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-1.jpg",
+                  "title":" Bracelet",
+                  "alt":" Bracelet",
+                  "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-4.jpg",
+                 "title":" Bangle",
+                 "alt":" Bangle",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-3.jpg",
+                 "title":" Necklace",
+                 "alt":" Necklace",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-5.jpg",
+                 "title":" Ring",
+                 "alt":" Ring",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-7.jpg",
+                 "title":" Chain",
+                 "alt":" Chain",
+                 "cat_link": "/single-shop"
+                },
+                {
+                  "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-6.jpg",
+                  "title":" Gemstone",
+                  "alt":" Gemstone",
+                  "cat_link": "/single-shop"
+                },
+                
+                {
+                  "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-10.jpg",
+                  "title":" Locket",
+                  "alt":" Locket",
+                  "cat_link": "/single-shop"
+                },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-8.jpg",
+                 "title":" Pendant",
+                 "alt":" Pendant",
+                 "cat_link": "/single-shop"
+               },
+               {
+                 "img":"https://webby-production.s3.amazonaws.com/Starry-Heavens/gifts/gift-type-11.jpg",
+                 "title":" Brooch",
+                 "alt":" Brooch",
+                 "cat_link": "/single-shop"
+               }
+            ]
+         }
+      ] 
+   }
+   
+]
