@@ -172,11 +172,11 @@ function Header_h1() {
             {Data.top_bar && Data.top_bar.map((lang_country, index) => {
               return (
                 <div className="top-bar bg-violet-900 " key={index}>
-                  <div className="flex justify-between items-center container px-0 lg:px-3.5 py-0.5">
-                    <ul className="flex items-center ltr:ml-2">
-                      <li className="ltr:mr-3 rtl:ml-3 lg:inline-block hidden"><Link href="#" className="text-white pink:text-black  text-[13px] font-light uppercase hover:opacity-80 transition-all leading-tight">Order Tracking</Link>
-                      </li>
-                      <li className="flex">
+                  {/* <div className="flex justify-between items-center container px-0 lg:px-3.5 py-0.5"> */}
+                    {/* <ul className="flex items-center ltr:ml-2"> */}
+                      {/* <li className="ltr:mr-3 rtl:ml-3 lg:inline-block hidden"><Link href="#" className="text-white pink:text-black  text-[13px] font-light uppercase hover:opacity-80 transition-all leading-tight">Order Tracking</Link>
+                      </li> */}
+                      {/* <li className="flex">
                         <Select
                           items={lang_country.Lang}
                           placeholder="Select a language"
@@ -218,8 +218,8 @@ function Header_h1() {
                             </SelectItem>
                           )}
                         </Select>
-                      </li>
-                      <li className="flex">
+                      </li> */}
+                      {/* <li className="flex">
                         <Select
                           items={lang_country.Country}
                           placeholder="Select a Currency"
@@ -254,17 +254,17 @@ function Header_h1() {
                             </SelectItem>
                           )}
                         </Select>
-                      </li>
-                    </ul>
-                    <ul className="flex items-center ">
+                      </li> */}
+                    {/* </ul> */}
+                    {/* <ul className="flex items-center ">
                       <li className="ltr:mr-3 rtl:ml-3 ltr:lg:mr-8 rtl:lg:ml-8"><Link href={lang_country.call_slug} className="text-white text-[0] hover:opacity-80 transition-all  lg:text-[13px] font-light uppercase flex items-center leading-tight"> <Image src={lang_country.call_img} width={19} height={19} alt={lang_country.call_alt} title="call" className="ltr:mr-1 rtl:ml-1" />{lang_country.call_label}</Link></li>
                       <li ><Link href={lang_country.mail_slug} className="text-white text-[0] lg:text-[13px] hover:opacity-80 transition-all font-light uppercase flex items-end leading-tight"> <Image src={lang_country.mail_img} width={20} height={20} alt={lang_country.mail_alt} title="mail" className="sm:ltr:mr-3.5 ltr:mr-2.5 rtl:ml-3.5 lg:rtl:ml-2" />{lang_country.mail_label}</Link></li>
-                    </ul>
-                  </div>
+                    </ul> */}
+                  {/* </div> */}
                 </div>
               )
             })}
-
+{/* 
             <div className="header-middle">
               <div className="container flex items-center justify-between px-1 md:px-3.5 md:py-4 py-3 lg:py-7 transition-all">
                 {Data.mid_bar && Data.mid_bar.map((mid_bar_item, index) => {
@@ -330,325 +330,9 @@ function Header_h1() {
                   )
                 })}
               </div>
-            </div>
+            </div> */}
 
-            <div className="menu-wrap lg:relative border-t border-b border-gray-800 border-opacity-5 ">
-              <div className="container px-0 lg:px-2.5">
-                <div className="flex items-stretch justify-between bg-white"> {/* all */}
-                  <div className="nav-categories w-[200px] transition-all md:w-[220px] lg:w-[16%] 2xl:w-[18%] 1xl:block lg:hidden before:content-[''] before:hidden lg:before:block before:w-[45%] before:z-[0] before:h-full before:bg-gray-800 before:absolute ltr:before:left-0 rtl:before:right-0 before:top-0">
-                    {Data.mega_menu.All_Categories && Data.mega_menu.All_Categories.map((categories_item, index) => {
-                      return (
-                        <React.Fragment key={index}>
-                          <div className="relative">
-                            <div onClick={toggle} className={CatNavshow ? 'active group flex items-center py-2 lg:py-3.5 text-[13px] leading-tight md:text-sm 2xl:text-md font-light text-white bg-gray-800 uppercase wc-custom relative ltr:lg:pl-0 rtl:lg:pr-0 pl-2 pr-2 lg:pr-4 cursor-pointer' : 'group flex items-center py-2 lg:py-3.5 text-[13px] leading-tight md:text-sm 2xl:text-md font-light text-white bg-gray-800 uppercase wc-custom relative ltr:lg:pl-0 rtl:lg:pr-0 pl-2 pr-2 lg:pr-4 cursor-pointer'}>
-                              <Image src={categories_item.menu_img} width={27} height={27} alt={categories_item.menu_alt} title="list" className="ltr:2xl:mr-3 rtl:2xl:ml-3 ltr:mr-2 rtl:ml-2 rtl: ltr:mr-2 rtl:ml-2 w-[22px] xl:w-[27px]" />
-                              <span className="grow">{categories_item.title}</span> <Image src={categories_item.arrow_img} width={12} height={12} alt={categories_item.arrow_alt} title="arrow" className="mx-1 group-[.active]:rotate-180" /> </div>
-                            <div onClick={toggle} className='fixed top-0 left-0 w-full h-full z-0' style={{ display: CatNavshow ? "block" : "none" }}>
-
-                            </div>
-                            <ul className="cat-nav hidden absolute top-full left-0 bg-white z-10 w-full py-4 border border-gray-300 lg:border-transparent" style={{ display: CatNavshow ? "block" : "none" }}>
-                              {categories_item.Categories_Item && categories_item.Categories_Item.map((item, index) => {
-                                return (
-                                  <li className="" key={index}><Link className="md:py-3.5 py-2.5 px-6 2xl:px-8 block text-gray-800 hover:text-white hover:bg-violet-900 text-[13px] leading-tight md:text-sm 2xl:text-[15px] uppercase" href={item.slug}>{item.title}</Link></li>
-                                )
-                              })}
-                            </ul>
-                          </div>
-                        </React.Fragment>
-                      )
-                    })}
-                  </div>
-
-                  <div className="lg:hidden flex justify-between grow text-end sm:ltr:mr-2 ltr:mr-1 rtl:ml-1 sm:rtl:ml-2 ">
-                    <button className="ltr:ml-auto rtl:mr-auto inline-block p-2 group" onClick={() => toggleCss()} aria-label="Close" id="toggleSearch">
-                      <Image src="https://webby-production.s3.amazonaws.com/Starry-Heavens/Header/search.svg" width={20} height={20} alt="main-logo" title="main-logo" className="white-img group-[.active]:hidden block" />
-                      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg" className="group-[.active]:block hidden stroke-[1.5] stroke-[#333]">
-                        <path d="M15.75 5.25L5.25 15.75" />
-                        <path d="M5.25 5.25L15.75 15.75" />
-                      </svg>
-                    </button>
-                  </div>
-                  {Data.mid_bar && Data.mid_bar.map((mid_bar_item, index) => {
-                    return (
-                      <React.Fragment key={index}>
-                        <div className="site-logo 1xl:block hidden py-2 self-center ">
-                          {mid_bar_item.logo && mid_bar_item.logo.map((item, index) => {
-                            return (
-                              <Link key={index} href={item.slug}><Image src={item.img} width={290} height={30} alt={item.alt} title="main-logo" className="white-img m-auto w-[190px] xl:w-[210px]  w-[180px]" /></Link>
-                            )
-                          })}
-                        </div>
-                      </React.Fragment>
-                    )
-                  })}
-                  <div className="w-[0] lg:w-full 1xl:w-[84%] 2xl:w-[82%] z-10">
-                    <nav id="mainmenu" className="main-menu lg:static fixed w-full h-full lg:max-h-auto max-h-[100vh] pt-px overflow-auto lg:overflow-visible  ltr:lg:left-auto ltr:-left-full rtl:lg:right-auto rtl:-right-full top-0 bg-white z-20 transition-all ">
-                      <div className="text-end flex justify-between items-center lg:hidden px-6 bg-violet-400 lg:hidden block">
-                        {Data.mid_bar && Data.mid_bar.map((mid_bar_item, index) => {
-                          return (
-                            <React.Fragment key={index}>
-                              <div className="logo py-2 self-center ">
-                                {mid_bar_item.logo && mid_bar_item.logo.map((item, index) => {
-                                  return (
-                                    <Link key={index} href={item.slug}><Image src={item.img} width={290} height={30} alt={item.alt} title="main-logo" className="white-img m-auto w-[190px] xl:w-[210px]  w-[180px]" /></Link>
-                                  )
-                                })}
-                              </div>
-                            </React.Fragment>
-                          )
-                        })}
-                        <button name="close" onClick={() => toggleClass()} className="text-green-900 text-[22px] py-3" aria-label="Close"> 
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-none stroke stroke-[1.5px] stroke-black'> <path d="M18 6L6 18" /><path d="M6 6L18 18" /></svg>
-                        </button>
-                      </div>
-                      <ul className="main-nav group default w-full lg:flex items-center justify-center 1xl:justify-end">
-                        {Data.mega_menu.main_nav && Data.mega_menu.main_nav.map((sub_menu_column, index) => {
-                          let class_name = 'md:py-10 py-6 mega-menu lg:shadow-xl bg-blue-800 hidden lg:group-hover/item:block lg:absolute w-full left-0 z-10 bg-violet-400 top-full '
-                          if (sub_menu_column.class) {
-                            class_name = sub_menu_column.class
-                          }
-                          let li_class = 'ltr:xl:ml-4 rtl:xl:mr-4 ltr:lg:ml-3 rtl:lg:mr-3 ltr:2xl:ml-6 rtl:2xl:mr-6 group/item flex lg:flex-nowrap flex-wrap items-center lg:border-b-2 border-transparent lg:border-t-0 border-t border-t-gray-900/10 dark:border-t-white/05  dark:border-t-white/10  lg:hover:border-violet-900 transition-all'
-                          if (sub_menu_column.li_class) {
-                            li_class = sub_menu_column.li_class
-                          }
-                          return (
-                            <React.Fragment key={index}>
-                              <li className={li_class}>
-                                <Link href={sub_menu_column.slug} className="text-gray-800 lg:inline-block w-auto grow flex justify-between items-center group-hover/item:text-violet-900 font-normal text-md lg:text-sm 2xl:text-md uppercase px-6 lg:px-0 py-4 lg:py-3.5">
-                                  {sub_menu_column.title}
-                                </Link>
-
-                                <span className={"px-6 lg:px-0 py-0 lg:py-3.5 lg:border-transparent ltr:border-l rtl:border-r border-gray-900/10 dark:border-l-white/10 group " + ((sub_menu_column.title) == isShown ? 'active' : '')} onClick={() => menuClick(sub_menu_column.title)}>
-                                  <svg xmlns="http://www.w3.org/2000/svg" width="10" height="5" viewBox="0 0 14 8" fill="none" className="lg:group-[.active]:rotate-0 group-[.active]:rotate-180 inline-block stroke-gray-800 group-hover:stroke-violet-900 ltr:ml-1 rtl:mr-1 ltr:xl:ml-1 rtl:xl:mr-1.5 rtl:ml-0">
-                                    <path d="M1 1L6.2929 6.68541C6.6834 7.10487 7.3166 7.10487 7.7071 6.68541L13 1" className="stroke-[1.4px]" />
-                                  </svg>
-                                </span>
-
-                                <div className={class_name + ((sub_menu_column.title) == isShown ? 'menu_open' : '')} id="menu_open">
-                                  <div className="container mx-auto w-full flex flex-wrap justify-between mx-2">
-
-                                    <div className="grow flex flex-wrap max-w-full">
-                                      {(sub_menu_column.Clarity) ?
-                                        <Diamond_Clarity initialValues={sub_menu_column.Clarity} />
-                                        : ''
-                                      }
-                                      {sub_menu_column.child_item && sub_menu_column.child_item.map((sub_menu_column, index) => {
-                                        let width = ''
-                                        if (sub_menu_column.column) {
-                                          width = sub_menu_column.column
-                                        }
-                                        return (
-                                          <React.Fragment key={index}>
-                                            <div className={width + "  lg:mb-0 mb-3"}><Nav initialValues={sub_menu_column} /></div>
-                                          </React.Fragment>
-                                        )
-                                      })}
-
-                                      {(sub_menu_column.img_with_button) ?
-
-                                        <div className={sub_menu_column.img_with_button_width + " "}>
-                                          {sub_menu_column.img_with_button && sub_menu_column.img_with_button.map((img_item, index) => {
-                                            return (
-                                              <React.Fragment key={index}>
-                                                <p className="text-[15px] 2xl:text-md font-semibold mb-5 text-gray-800 uppercase">{img_item.label}</p>
-                                                <div className="relative  mb-5">
-                                                  <Image src={img_item.img_src} width={500} height={250} alt={img_item.img_alt} title={img_item.img_alt} className=" ltr:mr-2 rtl:ml-2 w-full" />
-                                                </div>
-                                                <div className="flex items-center text-center gap-3">
-                                                  {img_item.buttons && img_item.buttons.map((img_item, index) => {
-                                                    return (
-                                                      <React.Fragment key={index}>
-                                                        <Link className={"all-btn w-1/2 px-2 " + img_item.class} href={img_item.slug}>{img_item.label}</Link>
-                                                      </React.Fragment>
-                                                    )
-                                                  })}
-                                                </div>
-                                              </React.Fragment>
-                                            )
-                                          })}
-                                        </div>
-                                        : ''
-                                      }
-
-                                      {(sub_menu_column.product_sections) ?
-                                        <>
-                                          {sub_menu_column.product_sections && sub_menu_column.product_sections.map((Product_item, index) => {
-                                            let width = ''
-                                            if (Product_item.column) {
-                                              width = Product_item.column
-                                            }
-                                            return (
-                                              <div className={width + " "} key={index}>
-                                                <React.Fragment key={index}>
-                                                  <p className="2xl:text-md text-[15px] font-semibold mb-5 text-gray-800 uppercase mx-3">{Product_item.title}</p>
-                                                  <div className="relative flex gap-2 mx-3">
-                                                    <Relative_Product_Box initialValues={Product_item.img_two_btns} />
-                                                  </div>
-                                                  <Link className="text-gray-800 text-lg  mt-5 uppercase my-3 flex items-center gap-0 hover:gap-3 transition-all font-[nabi]" href={Product_item.btn_slug}>{Product_item.btn_title}<Image src={Product_item.btn_img} width={14} height={14} alt={Product_item.btn_alt} title={Product_item.btn_alt} className="ml-1 rtl:mr-1  inline-block relative white-img rtl:rotate-180 " /></Link>
-                                                </React.Fragment>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''
-                                      }
-                                      {(sub_menu_column.diamond_shape) ?
-                                        <>
-                                          {sub_menu_column.diamond_shape && sub_menu_column.diamond_shape.map((diamond_shape_item, index) => {
-                                            let width = ''
-                                            if (diamond_shape_item.column) {
-                                              width = diamond_shape_item.column
-                                            }
-                                            return (
-                                              <div className={width + ""} key={index}>
-                                                <div className="flex items-center mb-5 justify-between">
-                                                  <p className="2xl:text-md text-[15px] font-semibold mx-3  text-gray-800 uppercase">{diamond_shape_item.label}</p>
-                                                  <Link className="text-gray-800 hover:text-violet-900 text-[15px] uppercase font-semibold mb-3 flex items-center transition-all hover:text-violet-900" href={diamond_shape_item.btn_slug}>{diamond_shape_item.btn_label}<Image src={diamond_shape_item.btn_img} width={14} height={14} alt={diamond_shape_item.btn_alt} title={diamond_shape_item.btn_alt} className="ml-1 inline-block relative white-img rtl:mr-1 rtl:rotate-180" /></Link>
-                                                </div>
-                                                <div className="relative mx-3 grid 1xl:grid-cols-6 xl:grid-cols-4 sm:grid-cols-6 grid-cols-3 gap-6 sm:gap-10">
-                                                  <Diamond_shapes initialValues={diamond_shape_item.item} />
-                                                </div>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''
-                                      }
-                                      {(sub_menu_column.insta_items) ?
-                                        <>
-                                          {sub_menu_column.insta_items && sub_menu_column.insta_items.map((insta_items_item, index) => {
-                                            let width = ''
-                                            if (insta_items_item.column) {
-                                              width = insta_items_item.column
-                                            }
-                                            return (
-                                              <div className={width + " lg:mx-0 sm:mx-3 mx-1"} key={index}>
-                                                <p className="text-[15px] 2xl:text-md font-semibold  mb-5 text-gray-800 uppercase">{insta_items_item.label}</p>
-                                                <div className="relative grid sm:grid-cols-3 grid-cols-2 gap-2.5">
-                                                  <Insta_imgs initialValues={insta_items_item.items} />
-                                                </div>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''
-                                      }
-                                      {(sub_menu_column.post_items) ?
-                                        <>
-                                          {sub_menu_column.post_items && sub_menu_column.post_items.map((post_item, index) => {
-                                            let width = ''
-                                            if (post_item.column) {
-                                              width = post_item.column
-                                            }
-                                            return (
-                                              <div className={width + " "} key={index}>
-                                                <div className="flex items-center mb-5 justify-between">
-                                                  <p className="text-[15px] 2xl:text-md font-semibold mx-3  text-gray-800 uppercase">{post_item.label}</p>
-                                                  <Link className="text-gray-800 hover:text-violet-900 text-[15px] uppercase font-semibold  flex items-center transition-all hover:text-violet-900" href={post_item.btn_slug}>{post_item.btn_label} <Image src={post_item.btn_img} width={14} height={14} alt={post_item.btn_alt} title={post_item.btn_alt} className="ml-1 inline-block relative white-img rtl:mr-1 rtl:rotate-180" /></Link>
-                                                </div>
-                                                <div className="relative mx-3 mb-5">
-                                                  <Nav_posts initialValues={post_item.items} />
-                                                </div>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''
-                                      }
-                                      {(sub_menu_column.products_item) ?
-                                        <>
-                                          {sub_menu_column.products_item && sub_menu_column.products_item.map((child_item, index) => {
-                                            let width = ''
-                                            if (child_item.column) {
-                                              width = child_item.column
-                                            }
-                                            return (
-                                              <div className={width + "  xl:mt-0 mt-3 lg:pl-8"} key={index}>
-                                                <div className="flex items-center mb-5 justify-between">
-                                                  <p className="2xl:text-md text-[15px] font-semibold mx-3  text-gray-800 uppercase">{child_item.label}</p>
-                                                  <Link className="text-gray-800 hover:text-violet-900 text-[15px] uppercase font-semibold  flex items-center transition-all hover:text-violet-900" href={child_item.btn_link}>{child_item.btn_title} <Image src={child_item.btn_icon_img} width={14} height={14} alt={child_item.btn_icon_label} title={child_item.btn_icon_label} className="ml-1 inline-block relative white-img rtl:mr-1 rtl:rotate-180" /></Link>
-                                                </div>
-                                                <div className="mx-3">
-                                                  <Swiper modules={[Navigation]} spaceBetween={18} slidesPerView={4}
-                                                    breakpoints={{
-                                                      0: {
-                                                        slidesPerView: 2,
-                                                      },
-                                                      768: {
-                                                        slidesPerView: 3,
-                                                      },
-                                                      1024: {
-                                                        slidesPerView: 4,
-                                                      },
-                                                    }} navigation >
-                                                    {Product_slider(child_item.items)}
-                                                  </Swiper>
-                                                </div>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''}
-                                      {(sub_menu_column.single_product) ?
-                                        <>
-                                          {sub_menu_column.single_product && sub_menu_column.single_product.map((item, index) => {
-                                            let width = ''
-                                            if (item.column) {
-                                              width = item.column
-                                            }
-                                            return (
-                                              <div className={width + " lg:mx-0 mx-3"} key={index}>
-                                                <div className="flex items-center mb-5 justify-between">
-                                                  <p className="2xl:text-md text-[15px] font-semibold text-gray-800 uppercase">{item.label} </p>
-                                                  <Link className="text-gray-800 hover:text-violet-900 text-[15px] uppercase font-semibold  flex items-center transition-all hover:text-violet-900" href={item.btn_link}>{item.btn_title} <Image src={item.btn_icon_img} width={14} height={14} alt={item.btn_icon_label} title={item.btn_icon_label} className="white-img ml-1 rtl:mr-1 rtl:rotate-180 inline-block relative" /></Link>
-                                                </div>
-                                                <div className="relative  mb-5 p-4 bg-white shadow-boxhover flex flex-wrap ">
-                                                  <div className="relative sm:w-2/5 w-full">
-                                                    <Image src={item.pro_img} width={260} height={230} alt={item.pro_alt} title={item.pro_alt} className=" ltr:mr-2 rtl:ml-2 h-full object-cover w-full" />
-                                                    <span className="w-12 h-12 rounded-full bg-violet-900 text-white text-[13px] font-semibold text-gray-800 uppercase flex items-center justify-center absolute top-2.5 left-2.5">{item.sale_tag}</span>
-                                                  </div>
-                                                  <div className="sm:w-3/5 p-4 md:pl-6">
-                                                    <Link className="text-gray-800 hover:text-violet-900 text-lg lg:text-[20px] 2xl:text-[22px] uppercase font-[nabi] block mb-2" href={item.pro_slug}>{item.pro_name}</Link>
-                                                    <p className="2xl:text-md text-[15px] text-gray-800 mb-3">{item.pro_des}</p>
-                                                    <p><span className="sale-price text-lg text-gray-400 line-through ">${item.pro_reg_price}</span><span className="regular-price text-lg text-gray-800 ml-3">${item.pro_sale_price}</span></p>
-                                                  </div>
-                                                </div>
-                                              </div>
-                                            )
-                                          })}
-                                        </>
-                                        : ''}
-                                    </div>
-
-                                    {(sub_menu_column.gifts_item) ?
-                                      <div className=" w-full">
-                                        {sub_menu_column.gifts_item && sub_menu_column.gifts_item.map((child_item, index) => {
-                                          return (
-                                            <React.Fragment key={index}>
-                                              <p className="text-md font-semibold mx-3 mb-5 text-gray-800 uppercase">{child_item.label}</p>
-                                              <div className="relative mx-3 grid lg:grid-cols-5 md:grid-cols-3 grid-cols-2 gap-4">
-                                                <Gift_Products initialValues={child_item.items} />
-                                              </div>
-                                              <Link className="text-gray-800 text-lg mx-3 uppercase mt-6 inline-flex items-center gap-0 hover:gap-3 transition-all font-[nabi]" href={child_item.btn_slug}>{child_item.btn_label} <Image src={child_item.btn_img} width={14} height={14} alt={child_item.btn_label} title={child_item.btn_label} className="ml-1 inline-block relative white-img rtl:mr-1 rtl:rotate-180" /></Link>
-                                            </React.Fragment>
-                                          )
-                                        })}
-                                      </div>
-                                      : ''
-                                    }
-
-                                  </div>
-                                </div>
-                              </li>
-                            </React.Fragment>
-                          )
-                        })}
-                      </ul>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
+         
           </React.Fragment>
         )
       })}

@@ -12,7 +12,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
     const [isLoading, setIsLoading] = React.useState(true);
     const [openGridList, setOpenGridList] = React.useState(1);
     const slicedItems = initialValues.slice(0, 12)
-
+    // console.log(slicedItems)
     useEffect(() => {
         setTimeout(() => setIsLoading(false), 1000);
     }, []);
