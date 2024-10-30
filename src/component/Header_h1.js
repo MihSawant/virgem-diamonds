@@ -173,7 +173,7 @@ function Header_h1() {
               return (
                 <div className="top-bar bg-violet-900 " key={index}>
                   {/* <div className="flex justify-between items-center container px-0 lg:px-3.5 py-0.5"> */}
-                    {/* <ul className="flex items-center ltr:ml-2"> */}
+                    <ul className="flex items-center ltr:ml-2">
                       {/* <li className="ltr:mr-3 rtl:ml-3 lg:inline-block hidden"><Link href="#" className="text-white pink:text-black  text-[13px] font-light uppercase hover:opacity-80 transition-all leading-tight">Order Tracking</Link>
                       </li> */}
                       {/* <li className="flex">
@@ -219,52 +219,16 @@ function Header_h1() {
                           )}
                         </Select>
                       </li> */}
-                      {/* <li className="flex">
-                        <Select
-                          items={lang_country.Country}
-                          placeholder="Select a Currency"
-                          defaultSelectedKeys={['USD']}
-                          classNames={{
-                            base: "dark bg-transparent text-white wp-country text-[13px] w-full focus:outline-none font-light uppercase",
-                            trigger: "text-[13px]  p-1",
-                          }}
-                          popoverProps={{
-                            classNames: {
-                                base: "!w-auto min-w-max rounded-2xl bg-white",
-                                content: "p-0 border-small border-divider bg-background text-lg",
-                            },
-                          }}
-                          renderValue={(items) => {
-                            return items.map((item, index) => (
-                              <div key={index} className="flex items-center gap-2">
-                                <div className="flex flex-col">
-                                  <span>{item.data.label}</span>
-                                </div>
-                              </div>
-                            ));
-                          }}
-                        >
-                          {(lang) => (
-                            <SelectItem key={lang.value} textValue={lang.label}>
-                              <div className="flex gap-2 items-center">
-                                <div className="flex flex-col">
-                                  <span className="text-small">{lang.label}</span>
-                                </div>
-                              </div>
-                            </SelectItem>
-                          )}
-                        </Select>
-                      </li> */}
-                    {/* </ul> */}
-                    {/* <ul className="flex items-center ">
+                      
+                    </ul>
+                    <ul className="flex items-center ">
                       <li className="ltr:mr-3 rtl:ml-3 ltr:lg:mr-8 rtl:lg:ml-8"><Link href={lang_country.call_slug} className="text-white text-[0] hover:opacity-80 transition-all  lg:text-[13px] font-light uppercase flex items-center leading-tight"> <Image src={lang_country.call_img} width={19} height={19} alt={lang_country.call_alt} title="call" className="ltr:mr-1 rtl:ml-1" />{lang_country.call_label}</Link></li>
                       <li ><Link href={lang_country.mail_slug} className="text-white text-[0] lg:text-[13px] hover:opacity-80 transition-all font-light uppercase flex items-end leading-tight"> <Image src={lang_country.mail_img} width={20} height={20} alt={lang_country.mail_alt} title="mail" className="sm:ltr:mr-3.5 ltr:mr-2.5 rtl:ml-3.5 lg:rtl:ml-2" />{lang_country.mail_label}</Link></li>
-                    </ul> */}
-                  {/* </div> */}
-                </div>
+                    </ul>
+                  </div>
               )
             })}
-{/* 
+
             <div className="header-middle">
               <div className="container flex items-center justify-between px-1 md:px-3.5 md:py-4 py-3 lg:py-7 transition-all">
                 {Data.mid_bar && Data.mid_bar.map((mid_bar_item, index) => {
@@ -330,7 +294,7 @@ function Header_h1() {
                   )
                 })}
               </div>
-            </div> */}
+            </div>
 
          
           </React.Fragment>

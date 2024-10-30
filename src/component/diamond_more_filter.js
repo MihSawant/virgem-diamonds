@@ -474,3 +474,129 @@ const Diamond_more_filter = ({ initialValues }) => {
 }
 
 export default Diamond_more_filter;
+
+// import React, { useEffect, useState } from 'react';
+// import { Checkbox, CheckboxGroup, Input, Skeleton, cn } from "@nextui-org/react";
+// import FilterItem from './FilterItem';
+
+// const Diamond_more_filter = ({ initialValues, onFilterChange }) => {
+//     const [isLoading, setIsLoading] = useState(true);
+//     const [selected, setSelected] = useState(false);
+//     const [Catfiltershow, setCatfiltershow] = useState(false);
+
+//     // State handlers for selections
+//     const [shortcuts, setShortcuts] = useState([]);
+//     const [cut, setCut] = useState([]);
+//     const [polish, setPolish] = useState([]);
+//     const [symmetry, setSymmetry] = useState([]);
+//     const [fluorescence, setFluorescence] = useState([]);
+//     const [labs, setLabs] = useState([]);
+//     const [fluorescenceColor, setFluorescenceColor] = useState([]);
+//     const [girdle, setGirdle] = useState([]);
+//     const [conclusion, setConclusion] = useState([]);
+
+//     useEffect(() => {
+//         setTimeout(() => setIsLoading(false), 1000);
+//     }, []);
+
+//     const toggle = () => {
+//         setCatfiltershow(!Catfiltershow);
+//     };
+
+//     // API call trigger function
+//     const triggerFilterChange = () => {
+//         const filters = {
+//             shortcuts,
+//             cut,
+//             polish,
+//             symmetry,
+//             fluorescence,
+//             labs,
+//             fluorescenceColor,
+//             girdle,
+//             conclusion
+//         };
+//         onFilterChange(filters); // Trigger the parent handler with all filters
+//     };
+
+//     return (
+//         <>
+//             <div className='hidden' style={{ display: Catfiltershow ? "block" : "none" }}>
+//                 <div className='flex items-start lg:flex-nowrap flex-wrap 2xl:mt-16 md:mt-10 mt-5'>
+//                     <div className='lg:w-1/2 w-full'>
+//                         <CheckboxGroup 
+//                             label="Shortcuts"
+//                             onChange={(values) => { setShortcuts(values); triggerFilterChange(); }}
+//                             defaultValue={["3X"]}
+//                             classNames={{ base: "w-full lg:flex-row", wrapper: "grid 1xl:grid-cols-5 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.shortcuts} count={initialValues.shortcuts.length} type='filter-box' />
+//                         </CheckboxGroup>
+//                         <CheckboxGroup 
+//                             label="Cut"
+//                             onChange={(values) => { setCut(values); triggerFilterChange(); }}
+//                             defaultValue={["EXCELLENT"]}
+//                             classNames={{ base: "w-full 2xl:mt-12 lg:mt-8 mt-5 lg:flex-row", wrapper: "grid 1xl:grid-cols-5 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.cut} count={initialValues.cut.length} type='filter-box' />
+//                         </CheckboxGroup>
+//                         <CheckboxGroup 
+//                             label="Polish"
+//                             onChange={(values) => { setPolish(values); triggerFilterChange(); }}
+//                             defaultValue={["EXCELLENT"]}
+//                             classNames={{ base: "w-full 2xl:mt-12 lg:mt-8 mt-5 lg:flex-row", wrapper: "grid 1xl:grid-cols-5 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.polish} count={initialValues.polish.length} type='filter-box' />
+//                         </CheckboxGroup>
+//                         <CheckboxGroup 
+//                             label="Symmetry"
+//                             onChange={(values) => { setSymmetry(values); triggerFilterChange(); }}
+//                             defaultValue={["EXCELLENT"]}
+//                             classNames={{ base: "w-full 2xl:mt-12 lg:mt-8 mt-5 lg:flex-row", wrapper: "grid 1xl:grid-cols-5 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.symmetry} count={initialValues.symmetry.length} type='filter-box' />
+//                         </CheckboxGroup>
+//                     </div>
+//                     <div className='lg:w-1/2 w-full'>
+//                         <CheckboxGroup 
+//                             label="Fluorescence"
+//                             onChange={(values) => { setFluorescence(values); triggerFilterChange(); }}
+//                             defaultValue={["NONE"]}
+//                             classNames={{ base: "w-full lg:flex-row", wrapper: "grid xl:grid-cols-5 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.fluorescence} count={5} type='filter-box' />
+//                         </CheckboxGroup>
+//                         <CheckboxGroup 
+//                             label="Labs"
+//                             onChange={(values) => { setLabs(values); triggerFilterChange(); }}
+//                             defaultValue={["GIA"]}
+//                             classNames={{ base: "w-full 2xl:mt-12 lg:mt-8 mt-5 lg:flex-row", wrapper: "grid 1xl:grid-cols-6 gap-2" }}
+//                         >
+//                             <FilterItem initialValues={initialValues.labs} count={5} type='filter-box' />
+//                         </CheckboxGroup>
+//                     </div>
+//                 </div>
+//                 {/* Additional Filter Sections */}
+//                 <CheckboxGroup
+//                     label="Conclusion"
+//                     onChange={(values) => { setConclusion(values); triggerFilterChange(); }}
+//                     defaultValue={["GIA"]}
+//                     classNames={{ base: "w-full 2xl:mt-12 lg:mt-8 mt-5 lg:flex-row", wrapper: "grid 1xl:grid-cols-8 gap-2" }}
+//                 >
+//                     <FilterItem initialValues={initialValues.conclusion_filter} count={initialValues.conclusion_filter.length} type='filter-box' />
+//                 </CheckboxGroup>
+//             </div>
+//             <div className='pt-6 mt-6 border-t border-gray-400/10'>
+//                 <button onClick={() => { setShortcuts([]); setCut([]); setPolish([]); setSymmetry([]); setFluorescence([]); setLabs([]); setFluorescenceColor([]); setGirdle([]); setConclusion([]); triggerFilterChange(); }} className='all-btn'>
+//                     Reset Filter
+//                 </button>
+//                 <button onClick={toggle} className={Catfiltershow ? 'all-btn active' : 'all-btn'}>
+//                     More Filter
+//                 </button>
+//             </div>
+//         </>
+//     );
+// };
+
+// export default Diamond_more_filter;
+

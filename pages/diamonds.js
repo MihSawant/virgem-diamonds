@@ -40,7 +40,7 @@ export default function Engagement() {
       {/* <Breadcrumb_pages breadcrumbItems={breadcrumbItems} /> */}
       <div className='2xl:py-10 py-8 container'>
         <h1 className="2xl:text-4xl lg:text-3xl sm:text-2xl text-[28px] uppercase  text-center  md:my-4 my-2 leading-tight text-gray-800">search loose diamonds</h1>
-        {/* <p className='2xl:text-lg lg:text-[17px] text-md my-2 md:leading-7 lg:my-4 text-gray-800 text-center md:max-w-[600px] mx-auto' >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p> */}
+        <p className='2xl:text-lg lg:text-[17px] text-md my-2 md:leading-7 lg:my-4 text-gray-800 text-center md:max-w-[600px] mx-auto' >Explore Virgem Diamonds' exquisite selection of certified loose diamonds, tailored for custom jewelry. Use our advanced search filters to find the perfect diamond by carat, cut, color, and clarity.</p>
       </div>
       <Diamond_Filter initialValues={dimaond_data} />
       <div id='mini-cart' className='color_switch fixed top-0 z-50 transition-all w-full -right-full h-full'>

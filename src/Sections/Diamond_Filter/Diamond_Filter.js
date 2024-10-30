@@ -171,3 +171,60 @@ const Diamond_Filter = ({ initialValues }) => {
 }
 
 export default Diamond_Filter;
+// import React, { useEffect, useState } from 'react';
+// import { CheckboxGroup, Input, Skeleton } from "@nextui-org/react";
+// import Diamond_colors_filter from '../../component/diamond_colors_filter';
+// import Diamond_more_filter from '../../component/diamond_more_filter';
+// import FilterItem from '../../component/FilterItem';
+
+// const Diamond_Filter = ({ initialValues }) => {
+//     const [result, setResult] = useState(null);
+
+//     // Define the API call function
+//     const onFilterChange = async (filters) => {
+//         // Prepare filter object in the required format
+//         const filterSelection = {
+//             "Stock #": filters.stock || "",
+//             "Shape": filters.shape || [],
+//             "Color": filters.color || [],
+//             "Clarity": filters.clarity || [],
+//             "Polish": filters.polish || [],
+//             "Symmetry": filters.symmetry || [],
+//             "Fluorescence Intensity": filters.fluorescenceIntensity || "",
+//             "Lab": filters.lab || ""
+//         };
+
+//         // Make the API call
+//         try {
+//             const response = await fetch("http://localhost:8081/api/filters/to-filter", {
+//                 method: "POST",
+//                 headers: { "Content-Type": "application/json" },
+//                 body: JSON.stringify(filterSelection),
+//             });
+//             if (!response.ok) throw new Error("Failed to apply filters");
+//             const result = await response.json();
+//             setResult(result);
+
+//             // Navigate to table with filters applied
+//             navigate("/table", { state: { filters: result.data } });
+
+//             console.log("Filters applied:", result);
+//         } catch (error) {
+//             console.error("Error applying filters:", error);
+//         }
+//     };
+
+//     return (
+//         <div className="relative">
+//             <div className="container bg-violet-400 2xl:p-12 lg:p-8 p-4">
+//                 <Diamond_more_filter
+//                     initialValues={initialValues}
+//                     onFilterChange={onFilterChange} // Pass down the function
+//                 />
+//                 {/* Render result or other components as needed */}
+//             </div>
+//         </div>
+//     );
+// };
+
+// export default Diamond_Filter;
