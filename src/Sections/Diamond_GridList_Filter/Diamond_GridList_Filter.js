@@ -23,7 +23,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
             <div className="relative 2xl:py-24 lg:py-16 py-12">
                 <div className="container " >
                     <div className='flex justify-between lg:flex-nowrap flex-wrap items-end gap-3'>
-                        <div className='flex items-center flex-wrap gap-3 lg:justify-start justify-center sm:w-auto w-full  '>
+                        {/* <div className='flex items-center flex-wrap gap-3 lg:justify-start justify-center sm:w-auto w-full  '>
                             <Link href='#' className='all-btn sm:block hidden'>Add to cart</Link>
                             <Link href='#' className='all-btn  sm:block hidden'>Add To Wishlist</Link>
                             <Link href='#' className='all-btn  sm:block hidden'>Add To Compare</Link>
@@ -50,14 +50,14 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                         ],
                                     },
                                 }} >
-                                <SelectItem key='rubi' value='rubi'>Rubi</SelectItem>
+                                {/* <SelectItem key='rubi' value='rubi'>Rubi</SelectItem>
                                 <SelectItem key='dfjn' value='dfjn'>Rubi</SelectItem>
-                                <SelectItem key='ksdjuf' value='ksdjuf'>Rubi</SelectItem>
-                            </Select>
-                        </div>
+                                <SelectItem key='ksdjuf' value='ksdjuf'>Rubi</SelectItem> */}
+                            {/* </Select> */}
+                        {/* </div>  */}
 
                         <div className='flex items-center gap-3 sm:w-auto w-full  lg:justify-start justify-center lg:mx-0 mx-auto'>
-                            <Select radius='none'
+                            {/* <Select radius='none'
                                 placeholder="Price Asc"
                                 classNames={{
                                     trigger: "text-center text-lg h-auto lg:px-6 px-4 2xl:py-2.5 py-2 text-gray-800 border border-gray-200/20 bg-white data-[hover=true]:bg-gray-300 shadow-none bg-white md:min-w-[180px] flex-row items-center",
@@ -84,8 +84,8 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                 <SelectItem key='price dsc' value='price dsc'>Price Dsc</SelectItem>
                                 <SelectItem key='Neweset' value='Neweset'>Neweset</SelectItem>
                                 <SelectItem key='Lowest' value='Lowest'>Lowest</SelectItem>
-                            </Select>
-                            <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 1 ? " bg-violet-900 active" : " bg-white")}
+                            </Select> */}
+                            {/* <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 1 ? " bg-violet-900 active" : " bg-white")}
                                 onClick={e => { e.preventDefault(); setOpenGridList(1); }} >
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='stroke-2 stroke-gray-900 w-8 h-8 group-hover:stroke-white group-[.active]:stroke-white'>
                                     <path d="M10.3594 2.4375H3.45312C2.89221 2.4375 2.4375 2.89221 2.4375 3.45312V10.3594C2.4375 10.9203 2.89221 11.375 3.45312 11.375H10.3594C10.9203 11.375 11.375 10.9203 11.375 10.3594V3.45312C11.375 2.89221 10.9203 2.4375 10.3594 2.4375Z" />
@@ -93,7 +93,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                     <path d="M10.3594 14.625H3.45312C2.89221 14.625 2.4375 15.0797 2.4375 15.6406V22.5469C2.4375 23.1078 2.89221 23.5625 3.45312 23.5625H10.3594C10.9203 23.5625 11.375 23.1078 11.375 22.5469V15.6406C11.375 15.0797 10.9203 14.625 10.3594 14.625Z" />
                                     <path d="M22.5469 14.625H15.6406C15.0797 14.625 14.625 15.0797 14.625 15.6406V22.5469C14.625 23.1078 15.0797 23.5625 15.6406 23.5625H22.5469C23.1078 23.5625 23.5625 23.1078 23.5625 22.5469V15.6406C23.5625 15.0797 23.1078 14.625 22.5469 14.625Z" />
                                 </svg>
-                            </Button>
+                            </Button> */}
                             <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 2 ? " bg-violet-900 active" : " bg-white")}
                                 onClick={e => { e.preventDefault(); setOpenGridList(2); }}>
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-900  w-8 h-8  group-hover:fill-white group-[.active]:fill-white'>
@@ -119,7 +119,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                             <TableComponent data={initialValues} />
                         </div>
                     </div>
-                    <Pagination isCompact showControls total={4} initialPage={1} dir='ltr'
+                    {/* <Pagination isCompact showControls total={4} initialPage={1} dir='ltr'
                             classNames={{
                                 base: "lg:mt-12 mt-6 z-10 relative",
                                 wrapper: "2xl:gap-2 md:gap-1 gap-0 overflow-visible h-8 rounded-full border-0 shadow-none mx-auto",
@@ -128,7 +128,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                     "bg-violet-900 rounded-full [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 2xl:w-12 2xl:h-12 w-10 h-10 [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 md:text-lg text-md  text-white font-[600]",
                                 prev: "bg-transparent text-lg text-gray-900 [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 2xl:w-12 2xl:h-12 w-10 h-10 [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 !rounded-full",
                                 next: "bg-transparent text-lg text-gray-900 [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 2xl:w-12 2xl:h-12 w-10 h-10 [&[data-hover=true]:not([data-active=true])]:!bg-gray-400/20 !rounded-full"
-                            }} />
+                            }} /> */}
                 </div>
 
             </div>

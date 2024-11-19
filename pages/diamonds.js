@@ -35,8 +35,8 @@ export default function Engagement() {
 
   return (
     <>
-      <ThemeChanger />
-      <Header_h1 />
+      {/* <ThemeChanger /> */}
+      {/* <Header_h1 /> */}
       {/* <Breadcrumb_pages breadcrumbItems={breadcrumbItems} /> */}
       <div className='2xl:py-10 py-8 container'>
         <h1 className="2xl:text-4xl lg:text-3xl sm:text-2xl text-[28px] uppercase  text-center  md:my-4 my-2 leading-tight text-gray-800">search loose diamonds</h1>
@@ -51,7 +51,7 @@ export default function Engagement() {
       {/* <Diamond_Guide /> */}
       {/* <Faq_Section initialValues={faq_data} /> */}
       {/* <Subscribe_Newsletter /> */}
-      <Footer_h3 />
+      {/* <Footer_h3 /> */}
     </>
   )
 }
