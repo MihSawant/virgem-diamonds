@@ -85,7 +85,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                 <SelectItem key='Neweset' value='Neweset'>Neweset</SelectItem>
                                 <SelectItem key='Lowest' value='Lowest'>Lowest</SelectItem>
                             </Select> */}
-                            {/* <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 1 ? " bg-violet-900 active" : " bg-white")}
+                            <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 1 ? " bg-violet-900 active" : " bg-white")}
                                 onClick={e => { e.preventDefault(); setOpenGridList(1); }} >
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='stroke-2 stroke-gray-900 w-8 h-8 group-hover:stroke-white group-[.active]:stroke-white'>
                                     <path d="M10.3594 2.4375H3.45312C2.89221 2.4375 2.4375 2.89221 2.4375 3.45312V10.3594C2.4375 10.9203 2.89221 11.375 3.45312 11.375H10.3594C10.9203 11.375 11.375 10.9203 11.375 10.3594V3.45312C11.375 2.89221 10.9203 2.4375 10.3594 2.4375Z" />
@@ -93,7 +93,7 @@ const Diamond_GridList_Filter = ({ initialValues }) => {
                                     <path d="M10.3594 14.625H3.45312C2.89221 14.625 2.4375 15.0797 2.4375 15.6406V22.5469C2.4375 23.1078 2.89221 23.5625 3.45312 23.5625H10.3594C10.9203 23.5625 11.375 23.1078 11.375 22.5469V15.6406C11.375 15.0797 10.9203 14.625 10.3594 14.625Z" />
                                     <path d="M22.5469 14.625H15.6406C15.0797 14.625 14.625 15.0797 14.625 15.6406V22.5469C14.625 23.1078 15.0797 23.5625 15.6406 23.5625H22.5469C23.1078 23.5625 23.5625 23.1078 23.5625 22.5469V15.6406C23.5625 15.0797 23.1078 14.625 22.5469 14.625Z" />
                                 </svg>
-                            </Button> */}
+                            </Button>
                             <Button className={'border border-gray-200/20 rounded-none 2xl:h-12 md:h-11 h-10 md:px-3 px-2.5 min-w-0 flex items-center justify-center hover:bg-violet-900 group' + (openGridList === 2 ? " bg-violet-900 active" : " bg-white")}
                                 onClick={e => { e.preventDefault(); setOpenGridList(2); }}>
                                 <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='fill-gray-900  w-8 h-8  group-hover:fill-white group-[.active]:fill-white'>

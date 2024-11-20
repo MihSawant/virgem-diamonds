@@ -7,7 +7,7 @@ const FilterItem = ({ initialValues, count, type }) => {
     const [showAll, setShowAll] = useState(false);
     const itemsToShow = showAll ? initialValues : initialValues.slice(0, count);
     const initialValuesCount = initialValues.length;
-
+    
     const CustomCheckbox = (props) => {
         const { children, ...otherProps } = props;
 

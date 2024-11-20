@@ -7,6 +7,7 @@ import FilterItem from './FilterItem';
 
 
 const Diamond_colors_filter = ({ initialValues }) => {
+    
     /*  ============= Skeletone_loader ============   */
     const [isLoading, setIsLoading] = React.useState(true);
     useEffect(() => {
@@ -14,6 +15,8 @@ const Diamond_colors_filter = ({ initialValues }) => {
     }, []);
 
     const [selected, setSelected] = React.useState(false);
+    
+    console.log(selected);
 
     const CustomCheckbox = (props) => {
         const { children, ...otherProps } = props;
